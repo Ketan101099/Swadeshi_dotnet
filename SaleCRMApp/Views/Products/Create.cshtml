@@ -1,0 +1,515 @@
+﻿ @* @model SwadeshiApp.Models.Product
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+    /* Neumorphism effect for form container */
+    .form-container {
+        background-color: #f0f0f0;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
+    }
+
+    /* 3D effect for buttons */
+    .btn-3d {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        /* background-color: #4CAF50; */
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+      /*   box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff; */
+    }
+
+        .btn-3d:hover {
+           /*  background-color: #45a049; */
+            /* transform: translate(2px, 2px); */
+            box-shadow: none;
+        }
+    /* Style for h1 tag */
+    h1 {
+        font-size: 32px;
+        color: #333;
+       /*  text-align: center; */
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Adding a subtle text shadow */
+    }
+
+</style>
+<br />
+<h1>Create Product</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-container">
+            <form asp-action="Create" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td><label asp-for="Name" class="control-label"></label></td>
+                            <td><input asp-for="Name" class="form-control input-3d" /></td>
+                            <td><span asp-validation-for="Name" class="text-danger"></span></td>
+                        </tr>
+                        <tr>
+                            <td><label asp-for="StateName" class="control-label"></label></td>
+                            <td><input asp-for="StateName" class="form-control input-3d" /></td>
+                            <td><span asp-validation-for="StateName" class="text-danger"></span></td>
+                        </tr>
+                        <tr>
+                            <td><label asp-for="SupplierID" class="control-label"></label></td>
+                            <td><input asp-for="SupplierID" class="form-control input-3d" readonly value="@UserManager.GetUserName(User)" /><input type="hidden" asp-for="SupplierID" value="@UserManager.GetUserName(User)" /></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><label asp-for="CategoryName" class="control-label"></label></td>
+                            <td><select asp-for="CategoryName" class="form-control input-3d" asp-items="ViewBag.CategoryName"></select></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><label asp-for="SubCategoryName" class="control-label"></label></td>
+                            <td><select asp-for="SubCategoryName" class="form-control input-3d" asp-items="ViewBag.SubCategoryName"></select></td>
+                            <td></td>
+                        </tr>
+                        <!-- Add other form fields here -->
+                    </tbody>
+                </table>
+                <div class="form-group">
+                    <a asp-action="Index" class="btn btn-primary btn-3d">Back to List</a>
+                    <input type="submit" value="Create" class="btn btn-primary btn-3d" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+ *@
+@* 
+@model SwadeshiApp.Models.Product
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+    /* Neumorphism effect for form container */
+     .form-container {
+        background-color: #f0f0f0;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
+        max-width: 400px; /* Adjust the max-width to make the form narrower */
+        margin: 0 auto; /* Centering the form horizontally */
+    }
+
+    /* 3D effect for buttons */
+    .btn-3d {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .btn-3d:hover {
+            box-shadow: none;
+        }
+
+    /* Style for headings */
+    h1, h4 {
+        font-size: 32px;
+        color: #333;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+</style>
+
+<div class="container">
+    <!-- Container for centering -->
+    <h1>Create Product</h1>
+    <div class="form-container">
+            <form asp-action="Create" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control input-3d" placeholder="Enter Product Name" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="StateName" class="control-label"></label>
+                    <input asp-for="StateName" class="form-control input-3d" placeholder="Enter State Name" />
+                    <span asp-validation-for="StateName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="SupplierID" class="control-label"></label>
+                    <input asp-for="SupplierID" class="form-control input-3d" readonly value="@UserManager.GetUserName(User)" />
+                    <input type="hidden" asp-for="SupplierID" value="@UserManager.GetUserName(User)" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="CategoryName" class="control-label"></label>
+                    <select asp-for="CategoryName" class="form-control input-3d" asp-items="ViewBag.CategoryName"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="SubCategoryName" class="control-label"></label>
+                    <select asp-for="SubCategoryName" class="form-control input-3d" asp-items="ViewBag.SubCategoryName"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Image" class="control-label"></label>
+                    <input asp-for="Image" type="file" class="form-control input-3d" />
+                    <span asp-validation-for="Image" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="UnitPrice" class="control-label"></label>
+                    <input asp-for="UnitPrice" class="form-control input-3d" />
+                    <span asp-validation-for="UnitPrice" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="UnitInStock" class="control-label"></label>
+                    <input asp-for="UnitInStock" class="form-control input-3d" />
+                    <span asp-validation-for="UnitInStock" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ProductAvailable" class="control-label"></label>
+                    <input asp-for="ProductAvailable" class="form-control input-3d" />
+                    <span asp-validation-for="ProductAvailable" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ShortDescription" class="control-label"></label>
+                    <input asp-for="ShortDescription" class="form-control input-3d" />
+                    <span asp-validation-for="ShortDescription" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="PicturePath" class="control-label"></label>
+                    <input asp-for="PicturePath" class="form-control input-3d" />
+                    <span asp-validation-for="PicturePath" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Note" class="control-label"></label>
+                    <input asp-for="Note" class="form-control input-3d" />
+                    <span asp-validation-for="Note" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <a asp-action="Index" class="btn btn-primary btn-3d">Back to List</a>
+                    <input type="submit" value="Create" class="btn btn-primary btn-3d" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+} *@
+
+@*@model SwadeshiApp.Models.Product
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+    /* Neumorphism effect for form container */
+    .form-container {
+        background-color: #f0f0f0;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
+        max-width: 400px; /* Adjust the max-width to make the form narrower */
+        margin: 0 auto; /* Centering the form horizontally */
+    }
+
+    /* 3D effect for buttons */
+    .btn-3d {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .btn-3d:hover {
+            box-shadow: none;
+        }
+
+    /* Style for headings */
+    h1, h4 {
+        font-size: 32px;
+        color: #333;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+</style>
+
+<div class="container">
+    <!-- Container for centering -->
+    <h1>Create Product</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-container">
+                <form asp-action="Create" method="post" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Name" class="control-label"></label>
+                        <input asp-for="Name" class="form-control input-3d" placeholder="Enter Product Name" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="StateName" class="control-label"></label>
+                        <input asp-for="StateName" class="form-control input-3d" placeholder="Enter State Name" />
+                        <span asp-validation-for="StateName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="SupplierID" class="control-label"></label>
+                        <input asp-for="SupplierID" class="form-control input-3d" readonly value="@UserManager.GetUserName(User)" />
+                        <input type="hidden" asp-for="SupplierID" value="@UserManager.GetUserName(User)" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="CategoryName" class="control-label"></label>
+                        <select asp-for="CategoryName" class="form-control input-3d" asp-items="ViewBag.CategoryName"></select>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="SubCategoryName" class="control-label"></label>
+                        <select asp-for="SubCategoryName" class="form-control input-3d" asp-items="ViewBag.SubCategoryName"></select>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Image" class="control-label"></label>
+                        <input asp-for="Image" type="file" class="form-control input-3d" />
+                        <span asp-validation-for="Image" class="text-danger"></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-container">
+                <form asp-action="Create" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label asp-for="UnitPrice" class="control-label"></label>
+                        <input asp-for="UnitPrice" class="form-control input-3d" />
+                        <span asp-validation-for="UnitPrice" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="UnitInStock" class="control-label"></label>
+                        <input asp-for="UnitInStock" class="form-control input-3d" />
+                        <span asp-validation-for="UnitInStock" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ProductAvailable" class="control-label"></label>
+                        <input asp-for="ProductAvailable" class="form-control input-3d" />
+                        <span asp-validation-for="ProductAvailable" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ShortDescription" class="control-label"></label>
+                        <input asp-for="ShortDescription" class="form-control input-3d" />
+                        <span asp-validation-for="ShortDescription" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="PicturePath" class="control-label"></label>
+                        <input asp-for="PicturePath" class="form-control input-3d" />
+                        <span asp-validation-for="PicturePath" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Note" class="control-label"></label>
+                        <input asp-for="Note" class="form-control input-3d" />
+                        <span asp-validation-for="Note" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <a asp-action="Index" class="btn btn-primary btn-3d">Back to List</a>
+                        <input type="submit" value="Create" class="btn btn-primary btn-3d" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}*@
+
+@model SwadeshiApp.Models.Product
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+    /* Neumorphism effect for form container */
+    .form-container {
+        /*background-color: #f0f0f0;*/
+        background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
+        margin: 20px auto; /* Centering the form horizontally */
+        max-width: 800px;
+    }
+
+    .custom-border {
+        border: 2px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to right, #FFA500, #32CD32); /* Green to orange gradient */
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    /* 3D effect for buttons */
+    .btn-3d {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .btn-3d:hover {
+            box-shadow: none;
+        }
+
+    /* Style for headings */
+    h1, h4 {
+        font-size: 32px;
+        color: #333;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    /* Custom border with orange and green gradient */
+    .table-bordered-custom {
+        border: 2px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to right, #FFA500, #32CD32); /* Green to orange gradient */
+        background-color: #59B4C3; /* Blue color */
+        border-radius: 10px;
+    }
+
+        /* Style for table headings */
+        .table-bordered-custom th {
+            color: white;
+            padding: 8px;
+            text-align: left;
+        }
+
+        /* Hover effect for table rows */
+        .table-bordered-custom tbody tr:hover {
+            background-color: #e9ecef; /* Light gray background on hover */
+        }
+</style>
+
+<div class="container">
+    <!-- Container for centering -->
+    <h1>Create Product</h1>
+    <div class="form-container custom-border">
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Name" class="control-label"></label>
+                        <input asp-for="Name" class="form-control input-3d" placeholder="Enter Product Name" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="StateName" class="control-label"></label>
+                        <input asp-for="StateName" class="form-control input-3d" placeholder="Enter State Name" />
+                        <span asp-validation-for="StateName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="SupplierID" class="control-label"></label>
+                        <input asp-for="SupplierID" class="form-control input-3d" readonly value="@UserManager.GetUserName(User)" />
+                        <input type="hidden" asp-for="SupplierID" value="@UserManager.GetUserName(User)" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="CategoryName" class="control-label"></label>
+                        <select asp-for="CategoryName" class="form-control input-3d" asp-items="ViewBag.CategoryName"></select>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="SubCategoryName" class="control-label"></label>
+                        <select asp-for="SubCategoryName" class="form-control input-3d" asp-items="ViewBag.SubCategoryName"></select>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Image" class="control-label"></label>
+                        <input asp-for="Image" type="file" class="form-control input-3d" />
+                        <span asp-validation-for="Image" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="UnitPrice" class="control-label"></label>
+                        <input asp-for="UnitPrice" class="form-control input-3d" />
+                        <span asp-validation-for="UnitPrice" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="UnitInStock" class="control-label"></label>
+                        <input asp-for="UnitInStock" class="form-control input-3d" />
+                        <span asp-validation-for="UnitInStock" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ProductAvailable" class="control-label"></label>
+                        <input asp-for="ProductAvailable" class="form-control input-3d" />
+                        <span asp-validation-for="ProductAvailable" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ShortDescription" class="control-label"></label>
+                        <input asp-for="ShortDescription" class="form-control input-3d" />
+                        <span asp-validation-for="ShortDescription" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="PicturePath" class="control-label"></label>
+                        <input asp-for="PicturePath" class="form-control input-3d" />
+                        <span asp-validation-for="PicturePath" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Note" class="control-label"></label>
+                        <input asp-for="Note" class="form-control input-3d" />
+                        <span asp-validation-for="Note" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <a asp-action="Index" class="btn btn-primary btn-3d">Back to List</a>
+                <input type="submit" value="Create" class="btn btn-primary btn-3d" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

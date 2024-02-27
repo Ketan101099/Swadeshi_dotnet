@@ -1,0 +1,734 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\payment\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\payment\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\payment\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\payment\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\controllers\\user\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\controllers\\user\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\controllers\\user\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\controllers\\user\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\controllers\\seller\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\controllers\\seller\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\products\\viewproductdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\products\\viewproductdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\order\\vieworderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\order\\vieworderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\migrations\\20240221135352_dummy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\migrations\\20240221135352_dummy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\controllers\\seller\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\controllers\\seller\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\order\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\order\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\shared\\_userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\shared\\_userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\models\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\models\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\shared\\_sellerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\shared\\_sellerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\subcategories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\subcategories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\seller\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\seller\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\leads\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\leads\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\seller\\delete2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\seller\\delete2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\seller\\details2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\seller\\details2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\seller\\edit2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\seller\\edit2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\leads\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\leads\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\leads\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\leads\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\leads\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\leads\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\dto\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\dto\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\views\\leads\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\views\\leads\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|c:\\users\\lenovo\\desktop\\21-02 .net\\https-github.com-amd1001-swadeshihub_dotnet\\salecrmapp\\controllers\\leadscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DBBED20-D230-408D-9879-28A9AB4A3B82}|SaleCRMApp\\SwadeshiApp.csproj|solutionrelative:salecrmapp\\controllers\\leadscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAPkAAAAAAAAAAAAAAAMBAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T14:19:13.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Controllers\\User\\UsersController.cs",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Controllers\\User\\UsersController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Controllers\\User\\UsersController.cs",
+              "RelativeToolTip": "SaleCRMApp\\Controllers\\User\\UsersController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwCAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T09:29:40.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Controllers\\User\\PaymentController.cs",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Controllers\\User\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Controllers\\User\\PaymentController.cs",
+              "RelativeToolTip": "SaleCRMApp\\Controllers\\User\\PaymentController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwIUAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T11:58:09.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Payment\\OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Payment\\OrderDetails.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Payment\\OrderDetails.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Payment\\OrderDetails.cshtml",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T12:02:08.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAALkAAAAAAAAAAAAAACgBAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T12:29:48.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Payment.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Payment\\Payment.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Payment\\Payment.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Payment\\Payment.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Payment\\Payment.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T11:08:25.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Controllers\\Seller\\ProductsController.cs",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Controllers\\Seller\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Controllers\\Seller\\ProductsController.cs",
+              "RelativeToolTip": "SaleCRMApp\\Controllers\\Seller\\ProductsController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAAC4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T13:42:40.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Models\\Product.cs",
+              "RelativeToolTip": "SaleCRMApp\\Models\\Product.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA7wCIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T13:47:56.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ViewProductDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Products\\ViewProductDetails.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Products\\ViewProductDetails.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Products\\ViewProductDetails.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Products\\ViewProductDetails.cshtml",
+              "ViewState": "AQIAACABAAAAAAAAAAAUwCsBAACjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T12:57:08.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\appsettings.json",
+              "RelativeDocumentMoniker": "SaleCRMApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\appsettings.json",
+              "RelativeToolTip": "SaleCRMApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-21T05:18:51.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Program.cs",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Program.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Program.cs",
+              "RelativeToolTip": "SaleCRMApp\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T13:56:24.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViewOrderDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Order\\ViewOrderDetails.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Order\\ViewOrderDetails.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Order\\ViewOrderDetails.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Order\\ViewOrderDetails.cshtml",
+              "ViewState": "AQIAAAgBAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T11:50:48.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20240221135352_dummy.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Migrations\\20240221135352_dummy.cs",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Migrations\\20240221135352_dummy.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Migrations\\20240221135352_dummy.cs",
+              "RelativeToolTip": "SaleCRMApp\\Migrations\\20240221135352_dummy.cs",
+              "ViewState": "AQIAANgAAAAAAAAAAAAAABwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T13:53:53.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SaleCRMApp\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\appsettings.Development.json",
+              "RelativeToolTip": "SaleCRMApp\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-21T13:56:17.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Order\\Orders.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Order\\Orders.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Order\\Orders.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Order\\Orders.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T12:21:25.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SaleCRMApp\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwA8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T08:35:10.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T12:57:48.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Seller.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Controllers\\Seller\\Seller.cs",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Controllers\\Seller\\Seller.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Controllers\\Seller\\Seller.cs",
+              "RelativeToolTip": "SaleCRMApp\\Controllers\\Seller\\Seller.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAqwBsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T10:00:26.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Models\\OrderItem.cs",
+              "RelativeToolTip": "SaleCRMApp\\Models\\OrderItem.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAUwCkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T11:41:48.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "SaleCRMApp\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAYwEMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T11:37:06.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAAAKYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T11:27:36.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_SellerLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Shared\\_SellerLayout.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Shared\\_SellerLayout.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Shared\\_SellerLayout.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Shared\\_SellerLayout.cshtml",
+              "ViewState": "AQIAANwAAAAAAAAAAAAAANwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T11:11:10.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAKkBAAAAAAAAAAAowLkBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T11:09:41.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_UserLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Shared\\_UserLayout.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Shared\\_UserLayout.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Shared\\_UserLayout.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Shared\\_UserLayout.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFsAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T09:29:08.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\SubCategories\\Index.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\SubCategories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\SubCategories\\Index.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\SubCategories\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T11:02:15.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Models\\UserEntity.cs",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Models\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Models\\UserEntity.cs",
+              "RelativeToolTip": "SaleCRMApp\\Models\\UserEntity.cs",
+              "ViewState": "AQIAAOQAAAAAAAAAAAAswOcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T05:34:41.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Users\\Index.cshtml",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAH0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T10:49:31.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T11:03:17.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAABoBAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T11:02:52.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Seller\\Index.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Seller\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Seller\\Index.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Seller\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T09:51:19.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T08:24:13.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Leads\\Index.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Leads\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Leads\\Index.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Leads\\Index.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAowF4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T08:58:45.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Edit2.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Seller\\Edit2.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Seller\\Edit2.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Seller\\Edit2.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Seller\\Edit2.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T09:53:24.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Delete2.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Seller\\Delete2.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Seller\\Delete2.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Seller\\Delete2.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Seller\\Delete2.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T09:58:20.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Details2.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Seller\\Details2.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Seller\\Details2.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Seller\\Details2.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Seller\\Details2.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T09:55:04.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Leads\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Leads\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Leads\\Edit.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Leads\\Edit.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAowG0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T08:58:24.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Leads\\Details.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Leads\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Leads\\Details.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Leads\\Details.cshtml",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAowH4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T08:58:16.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Leads\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Leads\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Leads\\Delete.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Leads\\Delete.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAowHkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T08:52:24.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\DTO\\UserProfile.cs",
+              "RelativeDocumentMoniker": "SaleCRMApp\\DTO\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\DTO\\UserProfile.cs",
+              "RelativeToolTip": "SaleCRMApp\\DTO\\UserProfile.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAmwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T09:43:30.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Leads\\Create.cshtml",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Views\\Leads\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Views\\Leads\\Create.cshtml",
+              "RelativeToolTip": "SaleCRMApp\\Views\\Leads\\Create.cshtml",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAhwIUAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T08:50:25.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Models\\Supplier.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Models\\Supplier.cs",
+              "RelativeToolTip": "SaleCRMApp\\Models\\Supplier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T08:34:54.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "LeadsController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Controllers\\LeadsController.cs",
+              "RelativeDocumentMoniker": "SaleCRMApp\\Controllers\\LeadsController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\Controllers\\LeadsController.cs",
+              "RelativeToolTip": "SaleCRMApp\\Controllers\\LeadsController.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAQwIwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T08:31:45.26Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

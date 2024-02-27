@@ -1,0 +1,89 @@
+﻿@model List<SwadeshiApp.Models.OrderItem>
+
+@{
+    ViewData["Title"] = "Orders By Seller";
+}
+
+@{
+    string title = "New Orders";
+    if (Model.Any(order => order.OrderStatus == "Shipped"))
+    {
+        title = "Shipped Orders";
+    }
+    else if (Model.Any(order => order.OrderStatus == "Delivered"))
+    {
+        title = "Delivered Orders";
+    }
+}
+
+<h1>@title</h1>
+
+@foreach (var order in Model)
+{
+    @* <div class="card mb-3">
+        <div class="card-header">
+            Order ID: @order.OrderId
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Product Name: @order.Product.Name</h5>
+            <p class="card-text">Customer Name: @order.FirstName @order.LastName</p>
+            <p class="card-text">Order Date: @order.OrderDate.ToString("yyyy-MM-dd")</p>
+            <p class="card-text">Total Amount: @order.TotalAmount</p>
+            <p class="card-text">Order Status: @order.OrderStatus</p>
+            <a href="@Url.Action("FetchOrderDetails", "Order", new { orderId = order.OrderId })" class="btn btn-primary">
+                View More Details
+            </a>
+        </div>
+    </div> *@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Order Details</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            /* Custom CSS */
+            .card-header {
+                /*background-color: #59B4C3;*/
+                background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+               
+            }
+
+            .card-body {
+                /*background-color: #f8f9fa;*/
+                background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+            }
+
+            .card {
+                border: 1px solid black;
+                border-radius: 0.25rem;
+                margin-bottom: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="card mb-3">
+                <div class="card-header">
+                    Order ID: @order.OrderId
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Product Name: @order.Product.Name</h5>
+                    <p class="card-text">Customer Name: @order.FirstName @order.LastName</p>
+                    <p class="card-text">Order Date: @order.OrderDate.ToString("yyyy-MM-dd")</p>
+                    <p class="card-text">Total Amount: @order.TotalAmount</p>
+                    <p class="card-text">Order Status: @order.OrderStatus</p>
+                    <a href="@Url.Action("FetchOrderDetails", "Order", new { orderId = order.OrderId })" class="btn btn-primary">
+                        View More Details
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+
+}
+

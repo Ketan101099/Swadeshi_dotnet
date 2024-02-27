@@ -1,0 +1,109 @@
+﻿@*@page
+@model ResendEmailConfirmationModel
+@{
+    ViewData["Title"] = "Resend email confirmation";
+}
+
+<h1>@ViewData["Title"]</h1>
+<h2>Enter your email.</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-floating">
+                <input asp-for="Input.Email" class="form-control" aria-required="true" />
+                <label asp-for="Input.Email" class="form-label"></label>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <button type="submit" class="w-100 btn btn-lg btn-primary">Resend</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+*@
+
+@page
+@model ResendEmailConfirmationModel
+@{
+    ViewData["Title"] = "Resend email confirmation";
+}
+
+<style>
+    .card {
+        margin-top: 50px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+       
+        background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+        padding: 20px;
+        transition: all 0.3s ease;
+    }
+
+        .card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .form-floating input {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+        transition: all 0.3s ease; /* Add transition for smooth effect */
+    }
+
+        .form-floating input:focus {
+            transform: translateY(-2px); /* Move input up slightly on focus */
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Increase shadow on focus */
+        }
+
+        .form-floating input:not(:focus) {
+            transition: all 0.3s ease; /* Add transition for smooth effect on blur */
+            transform: translateY(0); /* Reset transform on blur */
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Reset shadow on blur */
+        }
+
+    .btn-primary {
+        margin-top: 20px;
+        border: none;
+        border-radius: 10px;
+        background-color: #007bff; /* Primary button color */
+        color: #fff; /* Text color */
+        padding: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3; /* Darker primary button color on hover */
+        }
+</style>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <h1>@ViewData["Title"]</h1>
+                <h2>Enter your email.</h2>
+                <hr />
+                <form method="post">
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <div class="form-floating">
+                        <input asp-for="Input.Email" class="form-control" aria-required="true" />
+                        <label asp-for="Input.Email" class="form-label"></label>
+                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="w-100 btn btn-lg btn-primary">Resend</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

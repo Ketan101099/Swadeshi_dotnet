@@ -1,0 +1,209 @@
+﻿@*@using SaleCRMApp.Models
+@model State
+
+@{
+    ViewData["Title"] = "Create State";
+}
+<style>
+    .btn-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        border-radius: 10px;
+    }
+
+        .btn-3d:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+    .input-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+        transition: all 0.3s ease; /* Add transition for smooth effect */
+    }
+
+        .input-3d:focus {
+            transform: translateY(-2px); /* Move input up slightly on focus */
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Increase shadow on focus */
+        }
+
+        .input-3d:not(:focus) {
+            transition: all 0.3s ease; /* Add transition for smooth effect on blur */
+            transform: translateY(0); /* Reset transform on blur */
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Reset shadow on blur */
+        }
+
+</style>
+<h2>Create State</h2>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="StateName" >State Name</label>
+        <input asp-for="StateName" class="form-control" />
+        <span asp-validation-for="StateName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="StateDescription">State Description</label>
+        <textarea asp-for="StateDescription" class="form-control "></textarea>
+        <span asp-validation-for="StateDescription" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="StateImageFile">State Image</label>
+        <input asp-for="StateImageFile" type="file" class="form-control" />
+        <span asp-validation-for="StateImageFile" class="text-danger"></span>
+    </div>
+
+    
+</form>
+<button type="submit" class="btn btn-primary btn-3d">Create</button>*@
+
+
+@*@using SaleCRMApp.Models
+@model State
+
+@{
+    ViewData["Title"] = "Create State";
+}
+<style>
+    .btn-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        border-radius: 10px;
+    }
+
+        .btn-3d:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+    .input-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+        transition: all 0.3s ease; /* Add transition for smooth effect */
+    }
+
+        .input-3d:focus {
+            transform: translateY(-2px); /* Move input up slightly on focus */
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Increase shadow on focus */
+        }
+
+        .input-3d:not(:focus) {
+            transition: all 0.3s ease; /* Add transition for smooth effect on blur */
+            transform: translateY(0); /* Reset transform on blur */
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Reset shadow on blur */
+        }
+
+</style>
+<h2>Create State</h2>
+<div style="width:75%;">
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="StateName">State Name</label>
+        <input asp-for="StateName" class="form-control input-3d" />
+        <span asp-validation-for="StateName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="StateDescription">State Description</label>
+        <textarea asp-for="StateDescription" class="form-control input-3d"></textarea>
+        <span asp-validation-for="StateDescription" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="StateImageFile">State Image</label>
+        <input asp-for="StateImageFile" type="file" class="form-control input-3d" />
+        <span asp-validation-for="StateImageFile" class="text-danger"></span>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-primary btn-3d">Create</button>
+    </div>
+    
+</form>
+</div>*@
+
+
+@using SaleCRMApp.Models
+@model State
+
+@{
+    ViewData["Title"] = "Create State";
+}
+<style>
+    .btn-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        border-radius: 10px;
+    }
+
+        .btn-3d:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+    .input-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+        transition: all 0.3s ease; /* Add transition for smooth effect */
+    }
+
+        .input-3d:focus {
+            transform: translateY(-2px); /* Move input up slightly on focus */
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Increase shadow on focus */
+        }
+
+        .input-3d:not(:focus) {
+            transition: all 0.3s ease; /* Add transition for smooth effect on blur */
+            transform: translateY(0); /* Reset transform on blur */
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Reset shadow on blur */
+        }
+
+    .card {
+        margin-top: 50px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        
+        background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+        padding: 20px;
+        transition: all 0.3s ease;
+    }
+
+        .card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+</style>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="text-center">@ViewData["Title"]</h2>
+                    <form asp-action="Create" method="post" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="mb-3">
+                            <label asp-for="StateName" class="form-label">State Name</label>
+                            <input asp-for="StateName" class="form-control input-3d" />
+                            <span asp-validation-for="StateName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="StateDescription" class="form-label">State Description</label>
+                            <textarea asp-for="StateDescription" class="form-control input-3d"></textarea>
+                            <span asp-validation-for="StateDescription" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="StateImageFile" class="form-label">State Image</label>
+                            <input asp-for="StateImageFile" type="file" class="form-control input-3d" />
+                            <span asp-validation-for="StateImageFile" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3 text-center">
+                            <button type="submit" class="btn btn-primary btn-3d">Create</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

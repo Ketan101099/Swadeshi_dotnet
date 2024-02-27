@@ -1,0 +1,92 @@
+﻿@model IEnumerable<SwadeshiApp.DTO.UserProfile>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+    .btn-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        border-radius: 10px;
+    }
+
+        .btn-3d:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+    .neumorphic-table {
+        border-collapse: collapse;
+        width: 100%;
+        background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7);
+    }
+
+        .neumorphic-table th,
+        .neumorphic-table td {
+            padding: 20px;
+            text-align: left;
+            border: 1px solid #000000;
+            box-shadow: 1px 1px 5px #bcbcbc, -1px -1px 15px #ffffff;
+        }
+</style>
+<h1>Seller List</h1>
+
+@* <p>
+    <a asp-action="Create" class="btn btn-primary btn-3d">Create New</a>
+</p> *@
+<table class="neumorphic-table">
+    <thead>
+        <tr>
+          @*   <th>
+                ID
+            </th> *@
+            <th>
+                First Name
+            </th>
+            <th>
+                Last Name
+            </th>
+            @* <th>
+                Mobile No
+            </th>
+            <th>
+                Gender
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Address
+            </th>
+            <th>
+                City
+            </th>
+            <th>
+                PinCode
+            </th>
+            <th>Actions</th> *@
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var seller in Model)
+        {
+            <tr>
+               @*  <td>@seller.id</td> *@
+                <td>@seller.FirstName</td>
+                <td>@seller.LastName</td>
+              @*   <td>@seller.MobileNo</td>
+                <td>@seller.Gender</td>
+                <td>@seller.Email</td>
+                <td>@seller.Address</td>
+                <td>@seller.city</td>
+                <td>@seller.PinCode</td> *@
+                @* <td>
+                    <a asp-action="Edit" asp-route-id="@seller.id" class="btn btn-primary btn-3d">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@seller.id" class="btn btn-success btn-3d">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@seller.id" class="btn btn-danger btn-3d">Delete</a>
+                </td> *@
+            </tr>
+        }
+    </tbody>
+</table>
+

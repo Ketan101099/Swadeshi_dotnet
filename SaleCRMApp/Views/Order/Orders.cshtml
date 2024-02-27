@@ -1,0 +1,117 @@
+﻿@model List<SwadeshiApp.Models.OrderItem>
+
+@{
+    ViewData["Title"] = "Orders By User";
+}
+
+<style>
+    
+    .card {
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px #c9cccf, -10px -10px 20px #ffffff;
+        transition: all 0.3s ease;
+        background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+    
+    }
+
+    .card:hover {
+        transform: translateY(-2px);
+    }
+
+    .btn-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        border-radius: 10px;
+    }
+
+        .btn-3d:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+   
+</style>
+
+
+<h2 >Your Orders</h2>
+<div class="row">
+   
+    @foreach (var order in Model)
+    {
+        @*<div class="col-12 mb-4" >
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-3">
+                        <!-- Display product image here -->
+                        <img src="@order.Product.PicturePath" class="card-img-top" alt="Product Image" style="height: 200px; object-fit:contain;">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight:bolder;">@order.Product.Name</h5>
+                            <p class="card-text"><b>Description:</b> @order.Product.ShortDescription</p>
+                            <p class="card-text"><b>Order ID:</b> @order.OrderId</p>
+                            <p class="card-text"><b>Status:</b> @order.OrderStatus</p>
+                            <p class="card-text"><b>Total Amount:</b> @order.TotalAmount</p>
+                            <p class="card-text"><b>Order Date:</b> @order.OrderDate</p>
+                            @if (order.OrderStatus == "Ordered")
+                            {
+                                <div class="btn-group">
+                                   
+                                    <a href="@Url.Action("Delete", "Order", new { OrderId = order.OrderId})" class="btn btn-danger">Cancel Order</a>
+
+                                </div>
+                            }
+                            else if (order.OrderStatus == "Shipped")
+                            {
+                                <p class="card-text">Shipped Date: @order.ShippingDate</p>
+                            }
+                            else if (order.OrderStatus == "Delivered")
+                            {
+                                
+                                <p class="card-text">Shipping Date: @order.ShippingDate</p>
+                                <p class="card-text">Delivery Date: @order.DeliveryDate</p>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>*@
+        <div class="col-12 mb-4">
+            <div class="card" style="border-radius: 20px; box-shadow: 10px 10px 20px #c9cccf, -10px -10px 20px #ffffff;">
+                <div class="row" >
+                    <div class="col-md-3">
+                        <!-- Display product image here -->
+                        <img src="@order.Product.PicturePath" class="card-img-top" alt="Product Image" style="height: 200px; object-fit: contain;margin-top:30px;">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body" style="border-radius: 20px;">
+                            <h5 class="card-title" style="font-weight: bolder;">@order.Product.Name</h5>
+                            <p class="card-text"><b>Description:</b> @order.Product.ShortDescription</p>
+                            <p class="card-text"><b>Order ID:</b> @order.OrderId</p>
+                            <p class="card-text"><b>Status:</b> @order.OrderStatus</p>
+                            <p class="card-text"><b>Total Amount:</b> @order.TotalAmount</p>
+                            <p class="card-text"><b>Order Date:</b> @order.OrderDate</p>
+                            @if (order.OrderStatus == "Ordered")
+                            {
+                                <div class="btn-group">
+                                    <a href="@Url.Action("Delete", "Order", new { OrderId = order.OrderId})" class="btn btn-danger btn-3d" style="border-radius: 10px;">Cancel Order</a>
+                                </div>
+                            }
+                            else if (order.OrderStatus == "Shipped")
+                            {
+                                <p class="card-text">Shipped Date: @order.ShippingDate</p>
+                            }
+                            else if (order.OrderStatus == "Delivered")
+                            {
+                                <p class="card-text"><b>Shipping Date:</b> @order.ShippingDate</p>
+                                <p class="card-text"><b>Delivery Date:</b> @order.DeliveryDate</p>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    }
+</div>
+

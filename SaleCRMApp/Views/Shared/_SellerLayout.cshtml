@@ -1,0 +1,233 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SaleCRMApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/SaleCRMApp.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdb-react@5.0.0/dist/mdb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .navbar {
+            background: linear-gradient(to right, #ff9933, #ffffff, #138808);
+        }
+
+        .navbar-nav .nav-link {
+            color: black;
+        }
+
+        .btn-3d {
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+            transition: all 0.3s ease; /* Add transition for smooth effect */
+        }
+
+            .btn-3d:hover {
+                transform: translateY(-2px); /* Move button up slightly on hover */
+                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+            }
+
+        .input-3d {
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+            transition: all 0.3s ease; /* Add transition for smooth effect */
+        }
+
+            .input-3d:focus {
+                transform: translateY(-2px); /* Move input up slightly on focus */
+                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Increase shadow on focus */
+            }
+
+            .input-3d:not(:focus) {
+                transition: all 0.3s ease; /* Add transition for smooth effect on blur */
+                transform: translateY(0); /* Reset transform on blur */
+                box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Reset shadow on blur */
+            }
+
+        .link-3d {
+            transition: all 0.3s ease; /* Add transition for smooth effect */
+        }
+
+            .link-3d:hover {
+                transform: translateY(-2px); /* Move link up slightly on hover */
+                box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+            }
+
+        .info-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .information-box {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .image-box {
+            flex: 1;
+            margin: 0 20px;
+        }
+
+        .paragraph-box p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+       
+        .info-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .information-box {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .information-box h2 {
+                color: #007bff;
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+
+            .information-box p {
+                color: #555;
+                font-size: 18px;
+                line-height: 1.5;
+            }
+
+        .image-box img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .paragraph-box p {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.5;
+            text-align: justify;
+        }
+
+       
+
+    </style>
+
+
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a class="navbar-brand" href="#">
+                    <img style="height: 50px; width: 120px; border-radius:5px" src="~/Images/Swadeshilogo.jpg" height="30" alt="" loading="lazy" />
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active link-3d" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-3d" style="color:black" href="@Url.Action("Index", "Products")">Add Product</a>
+                        </li>
+
+                      @*   <li class="nav-item">
+                            <a class="nav-link" style="color:black" href="@Url.Action("Index", "Leads")">Profile</a>
+                        </li> *@
+
+                        <li class="nav-item">
+                            <a class="nav-link link-3d" style="color:black" href="@Url.Action("NewOrderBySellerId", "Order")">New Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-3d" style="color:black" href="@Url.Action("ShippedOrderBySellerId", "Order")">Shipped Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-3d" style="color:black" href="@Url.Action("DeliveredOrderBySellerId", "Order")">Delivered Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-3d" style="color:black" href="@Url.Action("ContactUs", "Home")">Contact Us</a>
+                        </li>
+
+                    </ul>
+
+                    <form class="d-flex">
+                        <input class="form-control me-2 input-3d" type="search" placeholder="Search Products" aria-label="Search" onchange="setSearchQuery(this.value)">
+                        <button class="btn btn-outline-success btn-3d" type="submit">Search</button>
+                    </form>
+
+                    <ul class="navbar-nav ml-auto">
+                        <ul class="navbar-nav">
+                            @if (SignInManager.IsSignedIn(User))
+                            {
+                                <li class="nav-item">
+                                    <a id="manage" class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @UserManager.GetUserName(User)!</a>
+                                </li>
+                                <li class="nav-item">
+                                    <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                        <button id="logout" type="submit" class="btn btn-danger btn-3d">Logout</button>
+                                    </form>
+                                </li>
+                            }
+                            else
+                            {
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" id="login" asp-area="Identity" asp-page="/Account/Login"><button class="btn btn-primary">Login</button></a>
+                                </li>
+                            }
+                        </ul>
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+
+        <partial name="_LoginPartial" />
+    </header>
+   
+    <div class="container-fluid" style="min-height:750px;">
+        <main role="main" class="pb-1">
+            @RenderBody()
+           
+
+        </main>
+
+    </div>
+   
+    @Html.Partial("_FooterPartial")
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mdb-react@5.0.0/dist/mdbreact.umd.js" integrity="sha384-xqSb3LBUlb0bDpcSka5fd39a5ZXvwaaKSeb8E4qjMLFmX5q2FhO5BR5L/dluoJ2c" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha384-k6VX0fbz1RlXcYOuOsZGs9GpZ3+Ie/L5as6DRaLzmJJ9qUqxFU4dJf2FuFp1dCk4" crossorigin="anonymous"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

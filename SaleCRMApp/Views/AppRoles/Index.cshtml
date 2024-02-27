@@ -1,0 +1,108 @@
+﻿@*@using Microsoft.AspNetCore.Identity
+@model IEnumerable<IdentityRole>
+
+@{
+    ViewData["Title"] = "Application Roles";
+}
+
+<h1>View Role</h1>
+<p> 
+    <a asp-action="Create">Create Role</a>
+</p>
+
+<table class="table">
+    <thraed>
+        <tr>
+            <th>@Html.DisplayNameFor(model=>model.Id)</th>
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+            <th></th>
+        </tr>
+    </thraed>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItems=>item.Id)</td>
+                <td>@Html.DisplayFor(modelItems => item.Name)</td>
+            </tr>
+            
+        }
+    </tbody>
+</table>*@
+@using Microsoft.AspNetCore.Identity
+@model IEnumerable<IdentityRole>
+
+@{
+    ViewData["Title"] = "Application Roles";
+}
+
+<style>
+    h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+        color: #333; /* Dark text color */
+        text-align: left;
+    }
+
+    a {
+        color: #4CAF50; /* Green color for links */
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+    }
+
+    th, td {
+        border: 1px solid #ccc; /* Border color */
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2; /* Light gray background for table header */
+    }
+
+   /* tr:nth-child(even) {
+        background-color: #f9f9f9; 
+    }
+*/
+    tr:hover {
+        background-color: #e9ecef; /* Light gray background on hover */
+    }
+</style>
+
+<h1>View Role</h1>
+<p>
+    <a asp-action="Create" class="btn btn-success">Create Role</a>
+</p>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Id)</th>
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+            @*<th></th>*@
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+@*                <td>
+                    <!-- Add any action buttons here if needed -->
+                </td>*@
+            </tr>
+        }
+    </tbody>
+</table>

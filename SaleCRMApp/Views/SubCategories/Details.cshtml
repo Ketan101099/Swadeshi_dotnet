@@ -1,0 +1,168 @@
+﻿@*@model SwadeshiApp.Models.SubCategory
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>SubCategory</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SubCategoryName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SubCategoryName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.isActive)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.isActive)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CategoryName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.SubCategoryID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>*@
+
+@model SwadeshiApp.Models.SubCategory
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+    
+        .details-container:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+    .btn-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        border-radius: 10px;
+    }
+
+        .btn-3d:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+    /* Container styles */
+    .details-container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+        
+    }
+
+        .details-container h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .details-container h4 {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+    /* Table styles */
+    .details-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+        .details-table th,
+        .details-table td {
+            padding: 8px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .details-table th {
+            /*background-color: #f2f2f2;*/
+            font-weight: normal;
+        }
+
+        /* Hover effect */
+        .details-table tr:hover {
+           /* background-color: #f5f5f5;*/
+        }
+
+    /* Input field styles */
+    input[type="text"],
+    select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        transition: border-color 0.3s, box-shadow 0.3s;
+    }
+
+        input[type="text"]:focus,
+        select:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+        }
+
+        /* Click effect */
+        input[type="text"]:active,
+        select:active {
+            border-color: #0056b3;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
+</style>
+<br />
+<div class="details-container">
+    <h1>Details</h1>
+
+    <div>
+        <h4>SubCategory</h4>
+        <hr />
+        <table class="details-table">
+            <tr>
+                <th>SubCategory Name</th>
+                <td>@Html.DisplayFor(model => model.SubCategoryName)</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>@Html.DisplayFor(model => model.Description)</td>
+            </tr>
+            <tr>
+                <th>Active</th>
+                <td>@Html.DisplayFor(model => model.isActive)</td>
+            </tr>
+            <tr>
+                <th>Category</th>
+                <td>@Html.DisplayFor(model => model.CategoryName)</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model?.SubCategoryID" class="btn btn-primary btn-3d">Edit</a>
+        <a asp-action="Index" class="btn btn-secondary btn-3d">Back to List</a>
+    </div>
+</div>

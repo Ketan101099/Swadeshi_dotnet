@@ -1,0 +1,208 @@
+﻿@*@model SwadeshiApp.Models.Category
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Category</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="CategoryID" />
+            <div class="form-group">
+                <label asp-for="CategoryName" class="control-label"></label>
+                <input asp-for="CategoryName" class="form-control" />
+                <span asp-validation-for="CategoryName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="isActive" class="control-label"></label>
+                <input asp-for="isActive" class="form-control" />
+                <span asp-validation-for="isActive" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+*@
+
+@model SwadeshiApp.Models.Category
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<style>
+    .card {
+        margin-top: 50px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+        padding: 20px;
+        transition: all 0.3s ease;
+    }
+
+        .card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+    .btn-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        border-radius: 10px;
+    }
+
+        .btn-3d:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+    .delete-container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+
+        .delete-container h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .delete-container h3 {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .delete-container table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background-color: #f2f2f2; /* Grey background color */
+        }
+
+        .delete-container th,
+        .delete-container td {
+            padding: 8px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .delete-container th {
+            background-color: #f2f2f2;
+        }
+
+        .delete-container form {
+            display: inline-block;
+        }
+
+        .delete-container .btn-delete,
+        .delete-container .btn-back {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .delete-container .btn-delete {
+            background-color: #dc3545;
+            color: #fff;
+        }
+
+            .delete-container .btn-delete:hover,
+            .delete-container .btn-back:hover {
+                background-color: #c82333;
+            }
+
+        .delete-container .btn-back {
+            background-color: #6c757d;
+            color: #fff;
+            margin-left: 10px;
+        }
+
+    .input-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+        transition: all 0.3s ease; /* Add transition for smooth effect */
+    }
+
+        .input-3d:focus {
+            transform: translateY(-2px); /* Move input up slightly on focus */
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Increase shadow on focus */
+        }
+
+        .input-3d:not(:focus) {
+            transition: all 0.3s ease; /* Add transition for smooth effect on blur */
+            transform: translateY(0); /* Reset transform on blur */
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Reset shadow on blur */
+        }
+</style>
+
+<div class="container">
+    <h1 class="mt-4">Edit Category</h1>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <form asp-action="Edit" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="CategoryID" />
+                        <div class="mb-3">
+                            <label for="CategoryName" class="form-label">Category Name:</label>
+                            <input asp-for="CategoryName" class="form-control input-3d" id="CategoryName" />
+                            <span asp-validation-for="CategoryName" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Description" class="form-label">Description:</label>
+                            <textarea asp-for="Description" class="form-control input-3d" id="Description" rows="4"></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="isActive" class="form-label">Active:</label>
+                            <select asp-for="isActive" class="form-select" id="isActive">
+                                <option value="true">Yes</option>
+                                <option value="false">No</option>
+                            </select>
+                            <span asp-validation-for="isActive" class="text-danger"></span>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-3d btn-primary">Save</button>|
+                            <a asp-action="Index" class="btn  btn-3d btn-secondary">Back to List</a>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

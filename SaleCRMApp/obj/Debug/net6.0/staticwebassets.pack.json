@@ -1,0 +1,533 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SwadeshiApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SwadeshiApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\00714675-764d-4e31-9cef-da3355fd3777_Screenshot 2024-02-21 132611.png",
+      "PackagePath": "staticwebassets\\Images\\00714675-764d-4e31-9cef-da3355fd3777_Screenshot 2024-02-21 132611.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\095dc6f0-8339-49bd-ae6c-971cbefe1e11_brown-traditional-kolhapuri-chappal-750x750.png",
+      "PackagePath": "staticwebassets\\Images\\095dc6f0-8339-49bd-ae6c-971cbefe1e11_brown-traditional-kolhapuri-chappal-750x750.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\1cf7d64c-74ab-4caf-b9c8-dc7c38ab33f3_WhatsApp Image 2024-01-16 at 4.01.47 AM.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1cf7d64c-74ab-4caf-b9c8-dc7c38ab33f3_WhatsApp Image 2024-01-16 at 4.01.47 AM.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\1f40b21f-11c5-4bbe-8b29-6c48de84deee_brown-traditional-kolhapuri-chappal-750x750.png",
+      "PackagePath": "staticwebassets\\Images\\1f40b21f-11c5-4bbe-8b29-6c48de84deee_brown-traditional-kolhapuri-chappal-750x750.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\2c6c2ed1-a859-4a72-9d9f-545110f4a43c_Screenshot 2024-02-21 114237.png",
+      "PackagePath": "staticwebassets\\Images\\2c6c2ed1-a859-4a72-9d9f-545110f4a43c_Screenshot 2024-02-21 114237.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\2f6099c5-074e-4e7c-af15-3d745f8b2d73_Screenshot 2024-02-21 114605.png",
+      "PackagePath": "staticwebassets\\Images\\2f6099c5-074e-4e7c-af15-3d745f8b2d73_Screenshot 2024-02-21 114605.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\34ea70af-490a-4b4b-b34b-362aa7564274_kondapalli-bommallu-kondapalli014-h.jpg",
+      "PackagePath": "staticwebassets\\Images\\34ea70af-490a-4b4b-b34b-362aa7564274_kondapalli-bommallu-kondapalli014-h.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\3812e462-8574-477d-a0eb-adc2d31a0bfd_kondapalli-bommallu-konwooden191-h.jpg",
+      "PackagePath": "staticwebassets\\Images\\3812e462-8574-477d-a0eb-adc2d31a0bfd_kondapalli-bommallu-konwooden191-h.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\39c58c0c-93c1-4141-8184-4be1c2d23021_Screenshot 2024-02-21 130705.png",
+      "PackagePath": "staticwebassets\\Images\\39c58c0c-93c1-4141-8184-4be1c2d23021_Screenshot 2024-02-21 130705.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\3e64b22e-b815-4096-a9d4-6d0186524b2c_Screenshot 2024-02-21 114605.png",
+      "PackagePath": "staticwebassets\\Images\\3e64b22e-b815-4096-a9d4-6d0186524b2c_Screenshot 2024-02-21 114605.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\425ef6aa-f22b-4558-8857-b104ff98471f_kondapalli-bommallu-kondapalli014-h.jpg",
+      "PackagePath": "staticwebassets\\Images\\425ef6aa-f22b-4558-8857-b104ff98471f_kondapalli-bommallu-kondapalli014-h.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\430a2f3d-18a0-444b-b643-b0723ed8f357_Screenshot 2024-02-21 134756.png",
+      "PackagePath": "staticwebassets\\Images\\430a2f3d-18a0-444b-b643-b0723ed8f357_Screenshot 2024-02-21 134756.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\43c2b604-9468-4304-9a9c-bb5d40a1f66b_Screenshot 2024-02-21 133752.png",
+      "PackagePath": "staticwebassets\\Images\\43c2b604-9468-4304-9a9c-bb5d40a1f66b_Screenshot 2024-02-21 133752.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\44d33423-5dc6-4f2d-b943-0baa706c0885_kondapalli-bommallu-kondapalli16-h.jpg",
+      "PackagePath": "staticwebassets\\Images\\44d33423-5dc6-4f2d-b943-0baa706c0885_kondapalli-bommallu-kondapalli16-h.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\5.jpg",
+      "PackagePath": "staticwebassets\\Images\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\521808f5-a407-4540-aaf2-6449cb1c9a8d_Screenshot 2024-02-21 132911.png",
+      "PackagePath": "staticwebassets\\Images\\521808f5-a407-4540-aaf2-6449cb1c9a8d_Screenshot 2024-02-21 132911.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\545d5a67-6d1e-4024-9910-ba28f9e32047_Screenshot 2024-02-21 130526.png",
+      "PackagePath": "staticwebassets\\Images\\545d5a67-6d1e-4024-9910-ba28f9e32047_Screenshot 2024-02-21 130526.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\6.jpg",
+      "PackagePath": "staticwebassets\\Images\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\6944d207-0024-4211-9a16-dcadd449a270_Screenshot 2024-02-21 132455.png",
+      "PackagePath": "staticwebassets\\Images\\6944d207-0024-4211-9a16-dcadd449a270_Screenshot 2024-02-21 132455.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\6cefcdb7-806d-434e-8c38-f36ff21b649a_Screenshot 2024-02-21 114237.png",
+      "PackagePath": "staticwebassets\\Images\\6cefcdb7-806d-434e-8c38-f36ff21b649a_Screenshot 2024-02-21 114237.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\7.jpg",
+      "PackagePath": "staticwebassets\\Images\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\7300bc09-8a56-4b2b-8066-12c092cac97a_chattisgarh.jpg",
+      "PackagePath": "staticwebassets\\Images\\7300bc09-8a56-4b2b-8066-12c092cac97a_chattisgarh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\7a63518d-707c-408d-85e6-bf560482e523_Screenshot 2024-02-21 114237.png",
+      "PackagePath": "staticwebassets\\Images\\7a63518d-707c-408d-85e6-bf560482e523_Screenshot 2024-02-21 114237.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\7f303fc7-3751-4215-bbee-0e67f00feccf_kondapalli-bommallu-kondapalli014-h.jpg",
+      "PackagePath": "staticwebassets\\Images\\7f303fc7-3751-4215-bbee-0e67f00feccf_kondapalli-bommallu-kondapalli014-h.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\8114893b-89d7-4503-baf6-d90bd066c247_kondapalli-bommallu-kondapalli16-h.jpg",
+      "PackagePath": "staticwebassets\\Images\\8114893b-89d7-4503-baf6-d90bd066c247_kondapalli-bommallu-kondapalli16-h.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\88a207a1-4e57-4907-b31c-f2a15f087409_brown-traditional-kolhapuri-chappal-750x750.png",
+      "PackagePath": "staticwebassets\\Images\\88a207a1-4e57-4907-b31c-f2a15f087409_brown-traditional-kolhapuri-chappal-750x750.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\8e34723b-b9fd-4774-be1e-8106adc468e9_kondapalli-bommallu-konwooden191-h.jpg",
+      "PackagePath": "staticwebassets\\Images\\8e34723b-b9fd-4774-be1e-8106adc468e9_kondapalli-bommallu-konwooden191-h.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\8f9d78d7-645f-4044-8f03-603ce0929fb9_Screenshot 2024-02-21 130839.png",
+      "PackagePath": "staticwebassets\\Images\\8f9d78d7-645f-4044-8f03-603ce0929fb9_Screenshot 2024-02-21 130839.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\949ebda5-8dbc-4a6a-90cf-51b440692690_kondapalli-bommallu-kondapalli16-h.jpg",
+      "PackagePath": "staticwebassets\\Images\\949ebda5-8dbc-4a6a-90cf-51b440692690_kondapalli-bommallu-kondapalli16-h.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\95c85d36-2a6f-4efc-98fa-2f1b0d5adce6_Screenshot 2024-02-21 133054.png",
+      "PackagePath": "staticwebassets\\Images\\95c85d36-2a6f-4efc-98fa-2f1b0d5adce6_Screenshot 2024-02-21 133054.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\9cfbc7eb-fc51-4479-a597-895b13b91328_brown-traditional-kolhapuri-chappal-750x750.png",
+      "PackagePath": "staticwebassets\\Images\\9cfbc7eb-fc51-4479-a597-895b13b91328_brown-traditional-kolhapuri-chappal-750x750.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\Aditya.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Aditya.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\Ajinkya.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Ajinkya.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\ContactUS.jpg",
+      "PackagePath": "staticwebassets\\Images\\ContactUS.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\FooterImage1.jpeg",
+      "PackagePath": "staticwebassets\\Images\\FooterImage1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\GITagging_2.webp",
+      "PackagePath": "staticwebassets\\Images\\GITagging_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\GIindia.jpg",
+      "PackagePath": "staticwebassets\\Images\\GIindia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\Ketan.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Ketan.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\Kiran.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Kiran.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\Rename.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Rename.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\Simple.png",
+      "PackagePath": "staticwebassets\\Images\\Simple.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\Swadeshilogo.jpg",
+      "PackagePath": "staticwebassets\\Images\\Swadeshilogo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\Tejeswini.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Tejeswini.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\Wip.jpg",
+      "PackagePath": "staticwebassets\\Images\\Wip.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\a1120c49-fbd7-486a-b6aa-db5c6fcc950f_chattisgarh.jpg",
+      "PackagePath": "staticwebassets\\Images\\a1120c49-fbd7-486a-b6aa-db5c6fcc950f_chattisgarh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\a22f8f3f-9d76-446f-8dee-2cb6e07aa497_68b5b383-e9b4-4fa9-b343-2c77fb88257e.jpg",
+      "PackagePath": "staticwebassets\\Images\\a22f8f3f-9d76-446f-8dee-2cb6e07aa497_68b5b383-e9b4-4fa9-b343-2c77fb88257e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\a73da594-2d94-47ae-a05f-a8cdd1c6045b_brown-traditional-kolhapuri-chappal-750x750.png",
+      "PackagePath": "staticwebassets\\Images\\a73da594-2d94-47ae-a05f-a8cdd1c6045b_brown-traditional-kolhapuri-chappal-750x750.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\b1.jpg",
+      "PackagePath": "staticwebassets\\Images\\b1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\b2.webp",
+      "PackagePath": "staticwebassets\\Images\\b2.webp"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\b3.jpg",
+      "PackagePath": "staticwebassets\\Images\\b3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\b3fd4ca2-d933-47a8-be99-5ed386d76132_Screenshot 2024-02-21 134120.png",
+      "PackagePath": "staticwebassets\\Images\\b3fd4ca2-d933-47a8-be99-5ed386d76132_Screenshot 2024-02-21 134120.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\b5cfea2c-0170-4fb0-8a17-cf563ebecab0_Screenshot 2024-02-21 134626.png",
+      "PackagePath": "staticwebassets\\Images\\b5cfea2c-0170-4fb0-8a17-cf563ebecab0_Screenshot 2024-02-21 134626.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\bd1060d4-97f3-47a7-9cbc-ee430db75b9e_kondapalli-bommallu-kondapalli014-h.jpg",
+      "PackagePath": "staticwebassets\\Images\\bd1060d4-97f3-47a7-9cbc-ee430db75b9e_kondapalli-bommallu-kondapalli014-h.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\c85cc6d3-0e0d-4aea-a538-11e4e64aa7c7_ContactUS.jpg",
+      "PackagePath": "staticwebassets\\Images\\c85cc6d3-0e0d-4aea-a538-11e4e64aa7c7_ContactUS.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\d4723278-a1e5-445a-90d3-e66d3102f140_brown-traditional-kolhapuri-chappal-750x750.png",
+      "PackagePath": "staticwebassets\\Images\\d4723278-a1e5-445a-90d3-e66d3102f140_brown-traditional-kolhapuri-chappal-750x750.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\d59c795d-88f3-4a48-a966-547995d4e284_WhatsApp Image 2023-12-20 at 16.26.37_f027e0a0.jpg",
+      "PackagePath": "staticwebassets\\Images\\d59c795d-88f3-4a48-a966-547995d4e284_WhatsApp Image 2023-12-20 at 16.26.37_f027e0a0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\d5d79d15-dfb0-4d0b-883f-9a37e4d82f72_chattisgarh.jpg",
+      "PackagePath": "staticwebassets\\Images\\d5d79d15-dfb0-4d0b-883f-9a37e4d82f72_chattisgarh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\e3c826e7-ae77-4247-832f-773c3f09d502_brown-traditional-kolhapuri-chappal-750x750.png",
+      "PackagePath": "staticwebassets\\Images\\e3c826e7-ae77-4247-832f-773c3f09d502_brown-traditional-kolhapuri-chappal-750x750.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\ecde6372-ecda-4f69-9469-763e65e30cee_kondapalli-bommallu-kondapalli014-h.jpg",
+      "PackagePath": "staticwebassets\\Images\\ecde6372-ecda-4f69-9469-763e65e30cee_kondapalli-bommallu-kondapalli014-h.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\f37f0017-07da-4662-969c-a1d46fb5ff33_brown-traditional-kolhapuri-chappal-750x750.png",
+      "PackagePath": "staticwebassets\\Images\\f37f0017-07da-4662-969c-a1d46fb5ff33_brown-traditional-kolhapuri-chappal-750x750.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\govtmii.png",
+      "PackagePath": "staticwebassets\\Images\\govtmii.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\imp.jpg",
+      "PackagePath": "staticwebassets\\Images\\imp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\india.jpg",
+      "PackagePath": "staticwebassets\\Images\\india.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\phil.jpeg",
+      "PackagePath": "staticwebassets\\Images\\phil.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\regi.jpg",
+      "PackagePath": "staticwebassets\\Images\\regi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\taj.jpg",
+      "PackagePath": "staticwebassets\\Images\\taj.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\Images\\vocal.jpg",
+      "PackagePath": "staticwebassets\\Images\\vocal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\21-02 .net\\https-github.com-AMD1001-Swadeshihub_dotnet\\SaleCRMApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SwadeshiApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.SwadeshiApp.props",
+      "PackagePath": "build\\SwadeshiApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.SwadeshiApp.props",
+      "PackagePath": "buildMultiTargeting\\SwadeshiApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.SwadeshiApp.props",
+      "PackagePath": "buildTransitive\\SwadeshiApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

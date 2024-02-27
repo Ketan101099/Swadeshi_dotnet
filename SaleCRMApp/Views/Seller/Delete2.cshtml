@@ -1,0 +1,29 @@
+﻿@model SwadeshiApp.Models.Supplier
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+
+<div>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="SupplierID" />
+        <div class="form-group">
+            <label asp-for="CompanyName" class="control-label"></label>
+            <input asp-for="CompanyName" class="form-control" readonly />
+        </div>
+        <div class="form-group">
+            <label asp-for="ContactName" class="control-label"></label>
+            <input asp-for="ContactName" class="form-control" readonly />
+        </div>
+        <!-- Add similar form-group elements for other properties -->
+        <div class="form-group">
+            <input type="submit" value="Delete" class="btn btn-danger" /> |
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </form>
+</div>
+

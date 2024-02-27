@@ -1,0 +1,297 @@
+﻿@model SwadeshiApp.Models.OrderItem
+
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+@* <style>
+    .order-details-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .order-info,
+    .product-info {
+        flex: 0 0 48%;
+        padding: 20px;
+        border: 1px solid #dee2e6;
+        border-radius: 5px;
+        background-color: #f8f9fa;
+    }
+
+    .product-image {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .product-info p {
+        margin-bottom: 10px;
+    }
+
+    .order-info p {
+        margin-bottom: 5px;
+    }
+</style>
+
+<h1 class="mt-4">Order Details</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="order-info">
+            <h2>Order Information</h2>
+            <p><strong>Order ID:</strong> @Model.OrderId</p>
+            <p><strong>Supplier ID:</strong> @Model.SupplierId</p>
+            <p><strong>First Name:</strong> @Model.FirstName</p>
+            <p><strong>Last Name:</strong> @Model.LastName</p>
+            <p><strong>Mobile No:</strong> @Model.MobileNo</p>
+            <p><strong>Email:</strong> @Model.Email</p>
+            <p><strong>Address:</strong> @Model.Address</p>
+            <p><strong>City:</strong> @Model.City</p>
+            <p><strong>Pin Code:</strong> @Model.PinCode</p>
+            <p><strong>Total Amount:</strong> @Model.TotalAmount</p>
+            <p><strong>Payment Mode:</strong> @Model.PaymentMode</p>
+            <p><strong>Payment ID:</strong> @Model.PaymentId</p>
+            <p><strong>Order Date:</strong> @Model.OrderDate</p>
+            <p><strong>Shipping Date:</strong> @Model.ShippingDate</p>
+            <p><strong>Delivery Date:</strong> @Model.DeliveryDate</p>
+            <p><strong>Order Status:</strong> @Model.OrderStatus</p>
+            @if (Model.OrderStatus == "Ordered")
+            {
+                <a href="/Order/OrderShipement?orderId=@Model.OrderId" class="btn btn-primary">Shipped</a>
+                <a href="/Order/NewOrderBySellerId" class="btn btn-secondary">Back</a>
+            }
+            else if (Model.OrderStatus == "Shipped")
+            {
+                <a href="/Order/OrderDeliverd?orderId=@Model.OrderId" class="btn btn-success">Delivered</a>
+                <a href="/Order/ShippedOrderBySellerId" class="btn btn-secondary">Back</a>
+                
+            }
+            else if (Model.OrderStatus == "Delivered")
+            {
+                <a href="/Order/DeliveredOrderBySellerId" class="btn btn-secondary">Back</a>
+                
+            }
+            
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="product-info">
+            <h2>Product Information</h2>
+            <img src="@Model.Product.PicturePath" alt="Product Image" class="product-image">
+            <p><strong>Product ID:</strong> @Model.Product.ProductID</p>
+            <p><strong>Product Name:</strong> @Model.Product.Name</p>
+            <p><strong>Unit Price:</strong> @Model.Product.UnitPrice</p>
+            <p><strong>Short Description:</strong> @Model.Product.ShortDescription</p>
+            <p><strong>State Name:</strong> @Model.Product.StateName</p>
+            <p><strong>Category Name:</strong> @Model.Product.CategoryName</p>
+            <p><strong>Subcategory Name:</strong> @Model.Product.SubCategoryName</p>
+        </div>
+    </div>
+</div> *@
+
+    <style>
+        
+        .order-details-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+        }
+
+        .order-info,
+        .product-info {
+            flex: 0 0 48%;
+            padding: 20px;
+            border: 1px solid black;
+            border-radius: 5px;
+            /*background-color: #f8f9fa;*/
+        background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+        }
+
+        .product-image {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .product-info p {
+            margin-bottom: 10px;
+        }
+
+        .order-info p {
+            margin-bottom: 5px;
+        }
+
+        .table {
+            width: 100%;
+            margin-bottom: 1rem;
+            color: #333333;
+        background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+        }
+
+            .table th,
+            .table td {
+                padding: 0.75rem;
+                vertical-align: top;
+                border-top: 1px solid black;
+            }
+
+            .table thead th {
+                vertical-align: bottom;
+                border-bottom: 2px solid black;
+                background-color: #59B4C3; /* Color specified */
+                color: #ffffff; /* Text color for table header */
+            }
+           
+    </style>
+
+    <h1 class="mt-4">Order Details</h1>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="order-info">
+                <h2>Order Information</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Field</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Order ID</td>
+                            <td>@Model.OrderId</td>
+                        </tr>
+                        <tr>
+                            <td>Supplier ID</td>
+                            <td>@Model.SupplierId</td>
+                        </tr>
+                        <tr>
+                            <td>First Name</td>
+                            <td>@Model.FirstName</td>
+                        </tr>
+                        <tr>
+                            <td>Last Name</td>
+                            <td>@Model.LastName</td>
+                        </tr>
+                        <tr>
+                            <td>Mobile No</td>
+                            <td>@Model.MobileNo</td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>@Model.Email</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>@Model.Address</td>
+                        </tr>
+                        <tr>
+                            <td>City</td>
+                            <td>@Model.City</td>
+                        </tr>
+                        <tr>
+                            <td>Pin Code</td>
+                            <td>@Model.PinCode</td>
+                        </tr>
+                        <tr>
+                            <td>Total Amount</td>
+                            <td>@Model.TotalAmount</td>
+                        </tr>
+                        <tr>
+                            <td>Payment Mode</td>
+                            <td>@Model.PaymentMode</td>
+                        </tr>
+                        <tr>
+                            <td>Payment ID</td>
+                            <td>@Model.PaymentId</td>
+                        </tr>
+                        <tr>
+                            <td>Order Date</td>
+                            <td>@Model.OrderDate</td>
+                        </tr>
+                        <tr>
+                            <td>Shipping Date</td>
+                            <td>@Model.ShippingDate</td>
+                        </tr>
+                        <tr>
+                            <td>Delivery Date</td>
+                            <td>@Model.DeliveryDate</td>
+                        </tr>
+                        <tr>
+                            <td>Order Status</td>
+                            <td>@Model.OrderStatus</td>
+                        </tr>
+                    </tbody>
+                </table>
+                @if (Model.OrderStatus == "Ordered")
+                {
+                    <a href="/Order/OrderShipement?orderId=@Model.OrderId" class="btn btn-primary">Shipped</a>
+                    <a href="/Order/NewOrderBySellerId" class="btn btn-secondary">Back</a>
+                }
+                else if (Model.OrderStatus == "Shipped")
+                {
+                    <a href="/Order/OrderDeliverd?orderId=@Model.OrderId" class="btn btn-success">Delivered</a>
+                    <a href="/Order/ShippedOrderBySellerId" class="btn btn-secondary">Back</a>
+
+                }
+                else if (Model.OrderStatus == "Delivered")
+                {
+                    <a href="/Order/DeliveredOrderBySellerId" class="btn btn-secondary">Back</a>
+
+                }
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="product-info">
+                <h2>Product Information</h2>
+                <img src="@Model.Product.PicturePath" alt="Product Image" class="product-image">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Field</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Product ID</td>
+                            <td>@Model.Product.ProductID</td>
+                        </tr>
+                        <tr>
+                            <td>Product Name</td>
+                            <td>@Model.Product.Name</td>
+                        </tr>
+                        <tr>
+                            <td>Unit Price</td>
+                            <td>@Model.Product.UnitPrice</td>
+                        </tr>
+                        <tr>
+                            <td>Short Description</td>
+                            <td>@Model.Product.ShortDescription</td>
+                        </tr>
+                        <tr>
+                            <td>State Name</td>
+                            <td>@Model.Product.StateName</td>
+                        </tr>
+                        <tr>
+                            <td>Category Name</td>
+                            <td>@Model.Product.CategoryName</td>
+                        </tr>
+                        <tr>
+                            <td>Subcategory Name</td>
+                            <td>@Model.Product.SubCategoryName</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+   

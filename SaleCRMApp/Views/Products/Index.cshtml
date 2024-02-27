@@ -1,0 +1,360 @@
+﻿@* @model IEnumerable<SwadeshiApp.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+    .btn-3d {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        /* background-color: #4CAF50; */
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        /*   box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff; */
+    }
+
+        .btn-3d:hover {
+            /*  background-color: #45a049; */
+            /* transform: translate(2px, 2px); */
+            box-shadow: none;
+        }
+</style>
+
+<h1>Product List</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary btn-3d">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StateName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Discount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitInStock)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductAvailable)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ShortDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PicturePath)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Note)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SubCategoryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SupplierID)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UnitPrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StateName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Discount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UnitInStock)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductAvailable)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ShortDescription)
+                </td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.PicturePath))
+                    {
+                        <img src="@Url.Content(item.PicturePath)" alt="product Image" style="max-width: 100px; max-height: 100px;" />
+                    }
+                    else
+                    {
+                        <p>No Image</p>
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Note)
+                </td>
+                <td>
+                    @if (item.CategoryName != null)
+                    {
+                        @Html.DisplayFor(modelItem => item.CategoryName)
+                    }
+                </td>
+                <td>
+                    @if (item.SubCategoryName != null)
+                    {
+                        @Html.DisplayFor(modelItem => item.SubCategoryName)
+                    }
+                </td>
+                <td>
+                    @if (item.SupplierID != null)
+                    {
+                        @Html.DisplayFor(modelItem => item.SupplierID)
+                    }
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ProductID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ProductID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ProductID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+ *@
+
+@*@model IEnumerable<SwadeshiApp.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    /* Neumorphism effect for table */
+    .table-container {
+        margin-top: 20px;
+        background-color: #f0f0f0;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
+    }
+
+        .table-container table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .table-container th,
+        .table-container td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .table-container th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .table-container tr:hover {
+            background-color: #f2f2f2;
+        }
+</style>
+
+<h1>Product List</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary btn-3d">Create New</a>
+</p>
+
+<div class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Unit Price</th>
+                <th>State Name</th>
+                <th>Discount</th>
+                <th>Units In Stock</th>
+                <th>Product Available</th>
+                <th>Short Description</th>
+                <th>Picture</th>
+                <th>Note</th>
+                <th>Category Name</th>
+                <th>Subcategory Name</th>
+                <th>Supplier ID</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                    <td>@Html.DisplayFor(modelItem => item.UnitPrice)</td>
+                    <td>@Html.DisplayFor(modelItem => item.StateName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Discount)</td>
+                    <td>@Html.DisplayFor(modelItem => item.UnitInStock)</td>
+                    <td>@Html.DisplayFor(modelItem => item.ProductAvailable)</td>
+                    <td>@Html.DisplayFor(modelItem => item.ShortDescription)</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(item.PicturePath))
+                        {
+                            <img src="@Url.Content(item.PicturePath)" alt="product Image" style="max-width: 100px; max-height: 100px;" />
+                        }
+                        else
+                        {
+                            <p>No Image</p>
+                        }
+                    </td>
+                    <td>@Html.DisplayFor(modelItem => item.Note)</td>
+                    <td>@Html.DisplayFor(modelItem => item.CategoryName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.SubCategoryName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.SupplierID)</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.ProductID">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.ProductID">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.ProductID">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+*@
+
+@model IEnumerable<SwadeshiApp.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+    <style >
+        
+    /* Style for the table */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        color: black;
+    }
+
+    /* Style for table headings */
+    th {
+        color: black;
+        padding: 8px;
+        text-align: left;
+    }
+
+    /* Style for table cells */
+    td {
+        padding: 8px;
+        color: black;
+       
+    }
+
+    /* Style for buttons */
+    .btn {
+        padding: 8px 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    
+
+    /* Style for card */
+    .card {
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+    }
+
+    /* Style for images */
+    img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+</style>
+
+
+
+
+<h1>Product List</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success btn-3d">Create New</a>
+</p>
+
+<div class="card">
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Unit Price</th>
+                <th>State Name</th>
+                <th>Discount</th>
+                <th>Units In Stock</th>
+                <th>Product Available</th>
+                <th>Short Description</th>
+                <th>Picture</th>
+                <th>Note</th>
+                <th>Category Name</th>
+                <th>Subcategory Name</th>
+                <th>Supplier ID</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                    <td>@Html.DisplayFor(modelItem => item.UnitPrice)</td>
+                    <td>@Html.DisplayFor(modelItem => item.StateName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Discount)</td>
+                    <td>@Html.DisplayFor(modelItem => item.UnitInStock)</td>
+                    <td>@Html.DisplayFor(modelItem => item.ProductAvailable)</td>
+                    <td>@Html.DisplayFor(modelItem => item.ShortDescription)</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(item.PicturePath))
+                        {
+                            <img src="@Url.Content(item.PicturePath)" alt="product Image" style="max-width: 100px; max-height: 100px;" />
+                        }
+                        else
+                        {
+                            <p>No Image</p>
+                        }
+                    </td>
+                    <td>@Html.DisplayFor(modelItem => item.Note)</td>
+                    <td>@Html.DisplayFor(modelItem => item.CategoryName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.SubCategoryName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.SupplierID)</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.ProductID" class="btn btn-warning  btn-3d">Edit</a> 
+                        <hr/>
+                        <a asp-action="Details" asp-route-id="@item.ProductID" class="btn btn-success btn-3d">Details</a>
+                        <hr />
+                        <a asp-action="Delete" asp-route-id="@item.ProductID" class="btn btn-danger btn-3d">Delete</a><br />
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

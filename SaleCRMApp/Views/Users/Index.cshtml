@@ -1,0 +1,136 @@
+﻿@*@model SwadeshiApp.DTO.UserProfile
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>User Details</h1>
+
+<div>
+ 
+
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.MobileNo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MobileNo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.city)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.city)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PinCode)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PinCode)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit">Edit</a> |
+   
+</div>
+
+*@
+
+@model SwadeshiApp.DTO.UserProfile
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+    /* Custom CSS for styling */
+    h1 {
+        color: #333;
+    }
+
+    .card {
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+     .btn-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+        transition: all 0.3s ease; /* Add transition for smooth effect */
+    }
+
+        .btn-3d:hover {
+            transform: translateY(-2px); /* Move button up slightly on hover */
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+        }
+    
+</style>
+
+<div class="container">
+    <h1 class="mt-5">User Details</h1>
+
+    <div class="card mt-4">
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">First Name:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.FirstName)</dd>
+
+                <dt class="col-sm-3">Last Name:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.LastName)</dd>
+
+                <dt class="col-sm-3">Gender:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Gender)</dd>
+
+                <dt class="col-sm-3">Mobile Number:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.MobileNo)</dd>
+
+                <dt class="col-sm-3">Address:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Address)</dd>
+
+                <dt class="col-sm-3">City:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.city)</dd>
+
+                <dt class="col-sm-3">Pin Code:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.PinCode)</dd>
+            </dl>
+        </div>
+        <hr />
+        <div class=" text-center mt-4">
+            <a asp-action="Edit" class="btn btn-primary btn-3d">Edit</a>
+        </div>
+        <br />
+    </div>
+
+    
+</div>
+
+<!-- Add Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+

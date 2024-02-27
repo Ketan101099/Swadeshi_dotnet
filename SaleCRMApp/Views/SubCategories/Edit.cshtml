@@ -1,0 +1,153 @@
+﻿@*@model SwadeshiApp.Models.SubCategory
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>SubCategory</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="SubCategoryID" />
+            <div class="form-group">
+                <label asp-for="CategoryName" class="control-label"></label>
+                <select asp-for="CategoryName" class="form-control" asp-items="ViewBag.CategoryName"></select>
+                <span asp-validation-for="CategoryName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SubCategoryName" class="control-label"></label>
+                <input asp-for="SubCategoryName" class="form-control" />
+                <span asp-validation-for="SubCategoryName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="isActive" class="control-label"></label>
+                <input asp-for="isActive" class="form-control" />
+                <span asp-validation-for="isActive" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}*@
+
+@model SwadeshiApp.Models.SubCategory
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<style>
+    .card {
+        margin-top: 50px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+        padding: 20px;
+        transition: all 0.3s ease;
+    }
+
+        .card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+         .btn-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+         border-radius: 10px;
+    }
+
+        .btn-3d:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+         .input-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+        transition: all 0.3s ease; /* Add transition for smooth effect */
+    }
+
+        .input-3d:focus {
+            transform: translateY(-2px); /* Move input up slightly on focus */
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Increase shadow on focus */
+        }
+
+        .input-3d:not(:focus) {
+            transition: all 0.3s ease; /* Add transition for smooth effect on blur */
+            transform: translateY(0); /* Reset transform on blur */
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Reset shadow on blur */
+        }
+    .row {
+        margin-bottom: 10px;
+    }
+
+    .col-md-4 {
+        margin: 0 auto; /* Center the form */
+    }
+</style>
+
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card">
+            <h1>Edit</h1>
+
+            <h4>SubCategory</h4>
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="SubCategoryID" />
+                <div class="form-group">
+                    <label asp-for="CategoryName" class="control-label">Category Name</label>
+                    <select asp-for="CategoryName" class="form-control input-3d" asp-items="ViewBag.CategoryName"></select>
+                    <span asp-validation-for="CategoryName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="SubCategoryName" class="control-label">SubCategory Name</label>
+                    <input asp-for="SubCategoryName" class="form-control input-3d" />
+                    <span asp-validation-for="SubCategoryName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label">Description</label>
+                    <input asp-for="Description" class="form-control input-3d" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="isActive" class="control-label">isActive</label>
+                    <input asp-for="isActive" class="form-control input-3d" />
+                    <span asp-validation-for="isActive" class="text-danger"></span>
+                </div>
+                <hr />
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary btn-3d" />
+                    <a asp-action="Index" class="btn btn-secondary btn-3d">Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

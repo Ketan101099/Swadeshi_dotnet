@@ -1,0 +1,94 @@
+﻿@model IEnumerable<SwadeshiApp.Models.Supplier>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+    .btn-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        border-radius: 10px;
+    }
+
+        .btn-3d:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+    .neumorphic-table {
+        border-collapse: collapse;
+        width: 100%;
+        /*background: linear-gradient(to right, #fff1ea, #ffffff, #ebfef4 );*/
+        background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+    }
+
+        .neumorphic-table th,
+        .neumorphic-table td {
+            padding: 20px;
+            text-align: left;
+            /* background: #e0e0e0;*/
+            /* border-radius: 20px;*/
+            border: 1px solid #000000;
+            box-shadow: 1px 1px 5px #bcbcbc, -1px -1px 15px #ffffff;
+        }
+</style>
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary btn-3d">Create New</a>
+</p>
+<table class="neumorphic-table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SupplierID)
+            </th>
+            <th>
+            <th>
+                @Html.DisplayNameFor(model => model.CompanyName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SupplierID)
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompanyName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.SupplierID" class="btn btn-primary btn-3d">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.SupplierID" class="btn btn-success btn-3d">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.SupplierID" class="btn btn-danger btn-3d">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,312 @@
+﻿@*@model SwadeshiApp.Models.Product
+
+@{
+    ViewBag.Title = "Product Details";
+
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="@Model.PicturePath" alt="@Model.Name" class="img-fluid" />
+        </div>
+        <div class="col-md-6">
+            <h2>@Model.Name</h2>
+            <p><strong>Product ID:</strong> @Model.ProductID</p>
+            <p><strong>Supplier:</strong> @Model.SupplierID</p>
+            <p><strong>Unit Price:</strong> Rs.@Model.UnitPrice</p>
+            @if (Model.OldPrice != null)
+            {
+                <p><strong>Previous Price:</strong> Rs.@Model.OldPrice</p>
+            }
+            @if (Model.Discount != null)
+            {
+                <p><strong>Discount:</strong> @Model.Discount%</p>
+            }
+            <p><strong>Stock:</strong> @Model.UnitInStock units</p>
+            <p><strong>Available:</strong> @(Model.ProductAvailable == true ? "Yes" : "No")</p>
+            <p><strong>Description:</strong> @Model.ShortDescription</p>
+            <p><strong>Note:</strong> @Model.Note</p>
+            <p><strong>State Name:</strong> @Model.StateName</p>
+            <p><strong>Category Name:</strong> @Model.CategoryName</p>
+            <p><strong>Subcategory Name:</strong> @Model.SubCategoryName</p>
+            <div>
+                @if (Model.ProductAvailable == true)
+                {
+                    <a href="@Url.Action("Index", "Payment", new { ProductId = @Model.ProductID, TotalAmount = @Model.UnitPrice })" class="btn btn-success" style="border-radius:10px;">Buy Now</a>
+                    <a href="@Url.Action("AddToCart","Cart",new { @ProductID = @Model.ProductID})" class="btn btn-primary" style="margin-right:20px;border-radius:10px;">Add to Cart</a>
+                }
+                else
+                {
+                    <button type="button" class="btn btn-success" disabled>Buy Now</button>
+                    <button type="button" class="btn btn-primary" disabled>Add to Cart</button>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+*@
+
+@*@model SwadeshiApp.Models.Product
+
+@{
+    ViewBag.Title = "Product Details";
+}
+
+<style>
+    .card {
+        margin-top: 50px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        background-color: #f5f3f5; /* Light background color */
+        padding: 20px;
+        transition: all 0.3s ease;
+    }
+
+        .card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            border-radius: 10px;
+        }
+
+    .btn {
+        border-radius: 10px;
+    }
+
+    .btn-success {
+        background-color: #28a745; /* Success button color */
+        color: #fff; /* Text color */
+        margin-right: 20px;
+    }
+
+        .btn-success:hover {
+            background-color: #218838; /* Darker success button color on hover */
+        }
+
+    .btn-primary {
+        background-color: #007bff; /* Primary button color */
+        color: #fff; /* Text color */
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3; /* Darker primary button color on hover */
+        }
+
+    .btn:disabled {
+        opacity: 0.5; /* Reduce opacity for disabled button */
+        cursor: not-allowed; /* Change cursor for disabled button */
+    }
+
+    .btn-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+        transition: all 0.3s ease; /* Add transition for smooth effect */
+    }
+
+        .btn-3d:hover {
+            transform: translateY(-2px); /* Move button up slightly on hover */
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+        }
+</style>
+
+<div class="card">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="@Model.PicturePath" alt="@Model.Name" class="img-fluid" />
+        </div>
+        <div class="col-md-6">
+            <h2>@Model.Name</h2>
+            <p><strong>Product ID:</strong> @Model.ProductID</p>
+            <p><strong>Supplier:</strong> @Model.SupplierID</p>
+            <p><strong>Unit Price:</strong> Rs.@Model.UnitPrice</p>
+            @if (Model.OldPrice != null)
+            {
+                <p><strong>Previous Price:</strong> Rs.@Model.OldPrice</p>
+            }
+            @if (Model.Discount != null)
+            {
+                <p><strong>Discount:</strong> @Model.Discount%</p>
+            }
+            <p><strong>Stock:</strong> @Model.UnitInStock units</p>
+            <p><strong>Available:</strong> @(Model.ProductAvailable == true ? "Yes" : "No")</p>
+            <p><strong>Description:</strong> @Model.ShortDescription</p>
+            <p><strong>Note:</strong> @Model.Note</p>
+            <p><strong>State Name:</strong> @Model.StateName</p>
+            <p><strong>Category Name:</strong> @Model.CategoryName</p>
+            <p><strong>Subcategory Name:</strong> @Model.SubCategoryName</p>
+            <div>
+                @if (Model.ProductAvailable == true)
+                {
+                    <a href="@Url.Action("Index", "Payment", new { ProductId = @Model.ProductID, TotalAmount = @Model.UnitPrice })" class="btn btn-success">Buy Now</a>
+                    <a href="@Url.Action("AddToCart","Cart",new { @ProductID = @Model.ProductID})" class="btn btn-primary">Add to Cart</a>
+                }
+                else
+                {
+                    <button type="button" class="btn btn-success btn-3d" disabled>Buy Now</button>
+                    <button type="button" class="btn btn-primary btn-3d" disabled>Add to Cart</button>
+                }
+            </div>
+        </div>
+    </div>
+</div>*@
+
+@* @model SwadeshiApp.Models.Product
+
+@{
+    ViewBag.Title = "Product Details";
+
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="@Model.PicturePath" alt="@Model.Name" class="img-fluid" />
+        </div>
+        <div class="col-md-6">
+            <h2>@Model.Name</h2>
+            <p><strong>Product ID:</strong> @Model.ProductID</p>
+            <p><strong>Supplier:</strong> @Model.SupplierID</p>
+            <p><strong>Unit Price:</strong> Rs.@Model.UnitPrice</p>
+            @if (Model.OldPrice != null)
+            {
+                <p><strong>Previous Price:</strong> Rs.@Model.OldPrice</p>
+            }
+            @if (Model.Discount != null)
+            {
+                <p><strong>Discount:</strong> @Model.Discount%</p>
+            }
+            <p><strong>Stock:</strong> @Model.UnitInStock units</p>
+            <p><strong>Available:</strong> @(Model.ProductAvailable == true ? "Yes" : "No")</p>
+            <p><strong>Description:</strong> @Model.ShortDescription</p>
+            <p><strong>Note:</strong> @Model.Note</p>
+            <p><strong>State Name:</strong> @Model.StateName</p>
+            <p><strong>Category Name:</strong> @Model.CategoryName</p>
+            <p><strong>Subcategory Name:</strong> @Model.SubCategoryName</p>
+            <div>
+                @if (Model.ProductAvailable == true)
+                {
+                    <a href="@Url.Action("Index", "Payment", new { ProductId = @Model.ProductID, TotalAmount = @Model.UnitPrice })" class="btn btn-success" style="border-radius:10px;">Buy Now</a>
+                    <a href="@Url.Action("AddToCart","Cart",new { @ProductID = @Model.ProductID})" class="btn btn-primary" style="margin-right:20px;border-radius:10px;">Add to Cart</a>
+                }
+                else
+                {
+                    <button type="button" class="btn btn-success" disabled>Buy Now</button>
+                    <button type="button" class="btn btn-primary" disabled>Add to Cart</button>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+ *@
+
+@model SwadeshiApp.Models.Product
+
+@{
+    ViewBag.Title = "Product Details";
+}
+
+<!-- Add Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<style>
+    /* Custom styling */
+    .product-details {
+        margin-top: 50px;
+    }
+
+        .product-details img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .product-details h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .product-details p {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .product-details strong {
+            color: #000;
+        }
+
+        /*.product-details .btn {
+            border-radius: 10px;
+            margin-right: 10px;
+        }*/
+
+    .card {
+        margin-top: 50px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+       
+        background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+        padding: 20px;
+        transition: all 0.3s ease;
+    }
+
+        .card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+    .btn-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        border-radius: 10px;
+    }
+
+        .btn-3d:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+
+</style>
+<div class="card">
+<div class="container product-details">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="@Model.PicturePath" alt="@Model.Name" class="img-fluid" />
+        </div>
+        <div class="col-md-6">
+            <h2>@Model.Name</h2>
+            <p><strong>Product ID:</strong> @Model.ProductID</p>
+            <p><strong>Supplier:</strong> @Model.SupplierID</p>
+            <p><strong>Unit Price:</strong> Rs.@Model.UnitPrice</p>
+            @if (Model.OldPrice != null)
+            {
+                    <p><strong>Previous Price:</strong> Rs.@Model.OldPrice</p>
+            }
+            @if (Model.Discount != null)
+            {
+                    <p><strong>Discount:</strong> @Model.Discount%</p>
+            }
+            <p><strong>Stock:</strong> @Model.UnitInStock units</p>
+            <p><strong>Available:</strong> @(Model.ProductAvailable == true ? "Yes" : "No")</p>
+            <p><strong>Description:</strong> @Model.ShortDescription</p>
+            <p><strong>Note:</strong> @Model.Note</p>
+            <p><strong>State Name:</strong> @Model.StateName</p>
+            <p><strong>Category Name:</strong> @Model.CategoryName</p>
+            <p><strong>Subcategory Name:</strong> @Model.SubCategoryName</p>
+            <div>
+                @if (Model.ProductAvailable == true)
+                {
+                        <a href="@Url.Action("Index", "Payment", new { ProductId = @Model.ProductID, TotalAmount = @Model.UnitPrice })" class="btn btn-success">Buy Now</a>
+                        <a href="@Url.Action("AddToCart","Cart",new { @ProductID = @Model.ProductID})" class="btn btn-primary">Add to Cart</a>
+                }
+                else
+                {
+                        <button type="button" class=" btn-success btn-3d" disabled>Buy Now</button>
+                        <button type="button" class=" btn-primary btn-3d" disabled>Add to Cart</button>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+</div>

@@ -1,0 +1,153 @@
+﻿@model List<SwadeshiApp.Models.Cart>
+
+
+<style>
+    .card-sl {
+        border-radius: 8px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: transform 0.3s ease;
+        background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+    }
+
+        .card-sl:hover {
+            /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);*/
+            transform: translateY(-5px) rotateX(5deg) rotateY(5deg);
+        }
+
+    .card-image img {
+        max-height: 100%;
+        max-width: 100%;
+        border-radius: 8px 8px 0px 0;
+    }
+
+    .card-action {
+        position: relative;
+        float: right;
+        margin-top: -25px;
+        margin-right: 20px;
+        z-index: 2;
+        color: #E26D5C;
+        background: #fff;
+        border-radius: 100%;
+        padding: 15px;
+        font-size: 15px;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+    }
+
+        .card-action:hover {
+            color: #fff;
+            background: #E26D5C;
+            -webkit-animation: pulse 1.5s infinite;
+        }
+
+    .card-heading {
+        font-size: 18px;
+        font-weight: bold;
+        background: #fff;
+        padding: 10px 15px;
+    }
+
+    .card-text {
+        padding: 10px 15px;
+        background: #fff;
+        font-size: 14px;
+        color: #636262;
+    }
+
+    /*.card-button {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+        width: 100%;
+        background-color: #1F487E;
+        color: #fff;
+        border-radius: 0 0 8px 8px;
+    }
+
+        .card-button:hover {
+            text-decoration: none;
+            background-color: #1D3461;
+            color: #fff;
+        }*/
+</style>
+<h2>Cart</h2>
+@if (Model.Count == 0)
+{
+    <p>Your cart is empty.</p>
+}
+else
+{
+
+    <div class="row">
+        @foreach (var item in Model)
+     @*    {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Product.Name</h5>
+                        <p class="card-text">Quantity: @item.Quantity</p>
+                        <form asp-action="RemoveFromCart" asp-route-cartItemId="@item.CartItemId" method="post">
+                            <button type="submit" class="btn btn-danger">Remove</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        } *@
+        {
+        @*<div class="col-md-4">
+            <div class="card mb-4" style="height: 400px; overflow: hidden;">
+                <div class="card-img-top" style="height: 200px; overflow: hidden;">
+                    <img src="@item.Product.PicturePath" class="img-fluid" alt="@item.Product.Name" style="height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-body">
+                    <h3 class="car-title">@item.Product.Name</h3>
+                        <h5 class="card-title">Rs.@item.Product.UnitPrice</h5>
+                        <div class="mt-4 text-center">
+                          
+                            <a href="@Url.Action("Index", "Payment", new { ProductId = @item.ProductID, TotalAmount = @item.Product.UnitPrice })" class="btn btn-success" style="border-radius:10px;">Buy Now</a>
+                            <form asp-action="RemoveFromCart" asp-route-cartItemId="@item.CartItemId" method="post">
+                                <button type="submit" class="btn btn-danger">Remove</button>
+                            </form>
+                        </div>
+                   
+                </div>
+                   
+            </div>
+        </div>*@
+        <div class="col-md-3">
+    <div class=" card-sl">
+        <div class="card-image">
+            <img src="@item.Product.PicturePath" class="card-img-top" alt="@item.Product.Name" style="height: 200px; object-fit: contain; margin-top:20px">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">@item.Product.Name</h5>
+            <h6 class="card-title">Rs. @item.Product.UnitPrice</h6>
+            @*<div class="mt-4 text">
+                <a href="@Url.Action("Index", "Payment", new { ProductId = @item.ProductID, TotalAmount = @item.Product.UnitPrice })" class="btn btn-success btn-3d" style="border-radius:10px;">Buy Now</a>
+                <br>
+                <form asp-action="RemoveFromCart" asp-route-cartItemId="@item.CartItemId" method="post">
+                                <button type="submit" class="btn btn-danger btn-3d" style="border-radius:10px;">Remove</button>
+                </form>
+            </div>*@
+                        <div class="mt-4 text">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="@Url.Action("Index", "Payment", new { ProductId = @item.ProductID, TotalAmount = @item.Product.UnitPrice })" class="btn btn-success btn-3d" style="margin-right:20px; margin-left:30px;border-radius:10px;">Buy Now</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <form asp-action="RemoveFromCart" asp-route-cartItemId="@item.CartItemId" method="post">
+                                        <button type="submit" class="btn btn-danger btn-3d" style="margin-right:20px;margin-left:20px;border-radius:10px;">Remove</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+        </div>
+    </div>
+
+</div>
+
+        }
+    </div>
+   
+}

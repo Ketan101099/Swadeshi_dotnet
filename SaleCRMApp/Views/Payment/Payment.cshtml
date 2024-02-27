@@ -1,0 +1,103 @@
+﻿@model SwadeshiApp.Models.OrderItem
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <title>Razorpay .Net Sample App</title>
+    <form action="/Payment/Payment" method="post" name="razorpayForm">
+        <input id="razorpay_payment_id" type="hidden" name="razorpay_payment_id" />
+        <input id="razorpay_order_id" type="hidden" name="razorpay_order_id" />
+        <input id="razorpay_signature" type="hidden" name="razorpay_signature" />
+        <input type="hidden" name="UserId" value="@Model.UserId" />
+        <input type="hidden" name="FirstName" value="@Model.FirstName" />
+        <input type="hidden" name="LastName" value="@Model.LastName" />
+        <input type="hidden" name="MobileNo" value="@Model.MobileNo" />
+        <input type="hidden" name="Address" value="@Model.Address" />
+        <input type="hidden" name="city" value="@Model.City" />
+        <input type="hidden" name="PinCode" value="@Model.PinCode" />
+        <input type="hidden" name="ProductId" value="@Model.ProductId" />
+        <input type="hidden" name="TotalAmount" value="@Model.TotalAmount"
+    </form>
+    <style>
+        .card {
+            margin-top: 50px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+            padding: 20px;
+            transition: all 0.3s ease;
+            width: 50%;
+            margin-left: 400px;
+        }
+
+            .card:hover {
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            }
+
+        .btn-3d {
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            border-radius: 10px;
+            align-content: center;
+        }
+
+            .btn-3d:hover {
+                transform: translateY(-2px);
+                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+            }
+    </style>
+</head>
+<br></br>
+<body>
+    <div class="card">
+        <button class="btn btn-success btn-3d" id="rzp-button1">Pay with Razorpay</button>
+    </div>
+
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+        var orderId = "@ViewBag.orderid"
+        var options = {
+            "name": "@Html.DisplayFor(model => model.FirstName)",
+            "description": "Buy Green Tea",
+            "order_id": orderId,
+            "image": "https://example.com/your_logo",
+            "prefill": {
+                "name": "@Html.DisplayFor(model => model.FirstName)",
+                "email": "@Html.DisplayFor(model => model.UserId)",
+                "contact": "@Html.DisplayFor(model => model.MobileNo)",
+            },
+            "notes": {
+                "address": "Hello World"
+            },
+            "theme": {
+                "color": "#3399cc"
+            }
+        }
+        // Boolean whether to show image inside a white frame. (default: true)
+        options.theme.image_padding = false;
+        options.handler = function (response) {
+            document.getElementById('razorpay_payment_id').value = response.razorpay_payment_id;
+            document.getElementById('razorpay_order_id').value = orderId;
+            document.getElementById('razorpay_signature').value = response.razorpay_signature;
+            document.razorpayForm.submit();
+        };
+        options.modal = {
+            ondismiss: function () {
+                console.log("This code runs when the popup is closed");
+            },
+            // Boolean indicating whether pressing escape key
+            // should close the checkout form. (default: true)
+            escape: true,
+            // Boolean indicating whether clicking translucent blank
+            // space outside checkout form should close the form. (default: false)
+            backdropclose: false
+        };
+        var rzp = new Razorpay(options);
+        document.getElementById('rzp-button1').onclick = function (e) {
+            rzp.open();
+            e.preventDefault();
+        }
+    </script>
+</body>
+</html>

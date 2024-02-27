@@ -1,0 +1,153 @@
+﻿@*@model SaleCRMApp.Models.SalesLeadEntity
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>SalesLeadEntity</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mobile" class="control-label"></label>
+                <input asp-for="Mobile" class="form-control" />
+                <span asp-validation-for="Mobile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Source" class="control-label"></label>
+                <input asp-for="Source" class="form-control" />
+                <span asp-validation-for="Source" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+*@
+
+@model SwadeshiApp.Models.Supplier
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+    .card {
+        margin-top: 50px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        
+        background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+        padding: 20px;
+        transition: all 0.3s ease;
+    }
+
+        .card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+    .form-control {
+        border: none;
+        border-radius: 10px;
+        background-color: #f8f9fa; /* Lighter background color */
+        padding: 10px;
+        transition: all 0.3s ease;
+    }
+
+        .form-control:focus {
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+</style>
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card">
+            <h1 class="text-center">@ViewData["Title"]</h1>
+            <hr />
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="CompanyName" class="control-label">First Name</label>
+                    <input asp-for="CompanyName" class="form-control input-3d" />
+                    <span asp-validation-for="CompanyName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ContactName" class="control-label">Last Name</label>
+                    <input asp-for="ContactName" class="form-control input-3d" />
+                    <span asp-validation-for="ContactName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Phone" class="control-label">Mobile</label>
+                    <input asp-for="Phone" class="form-control input-3d" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label">Email</label>
+                    <input asp-for="Email" class="form-control input-3d" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label">Source</label>
+                    <input asp-for="Email" class="form-control input-3d" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Address" class="control-label">Source</label>
+                    <input asp-for="Address" class="form-control input-3d" />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="City" class="control-label">Source</label>
+                    <input asp-for="City" class="form-control input-3d" />
+                    <span asp-validation-for="City" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Country" class="control-label">Source</label>
+                    <input asp-for="Country" class="form-control input-3d" />
+                    <span asp-validation-for="Country" class="text-danger"></span>
+                </div>
+                <hr />
+                <div class="form-group text-center">
+                    <input type="submit" value="Create" class="btn btn-primary btn-3d" />
+                    <a asp-action="Index" class="btn btn-secondary btn-3d">Back to List</a>
+                </div>
+                
+            </form>
+           
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,148 @@
+﻿@*@using SaleCRMApp.Models
+@model List<State>
+
+@{
+    ViewData["Title"] = "List of States";
+}
+<style>
+    .btn-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        border-radius: 10px;
+    }
+
+        .btn-3d:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+</style>
+<h2>States</h2>
+<a asp-action="Create" class="btn btn-primary btn-3d">Add State</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>State Name</th>
+            <th>State Description</th>
+            <th>State Image</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var state in Model)
+        {
+            <tr>
+                <td>@state.StateName</td>
+                <td>@state.StateDescription</td>
+                <td>
+                    @if (state.StateImage != null)
+                    {
+                        <img src="data:image/png;base64,@Convert.ToBase64String(state.StateImage)" alt="State Image" style="max-width: 100px; max-height: 100px;" />
+                    }
+                    else
+                    {
+                        <p>No Image</p>
+                    }
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@state.Id" class="btn btn-primary btn-3d">Edit</a> 
+                    <a asp-action="Delete" asp-route-id="@state.Id" class="btn btn-danger btn-3d">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+*@
+@using SaleCRMApp.Models
+@model List<State>
+
+@{
+    ViewData["Title"] = "List of States";
+}
+<style>
+    .btn-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        border-radius: 10px;
+    }
+
+        .btn-3d:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+    .neumorphic-table {
+        border-collapse: collapse;
+        width: 100%;
+        /*background: linear-gradient(to right, #fff1ea, #ffffff, #ebfef4 );*/
+        background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+
+    }
+
+        .neumorphic-table th,
+        .neumorphic-table td {
+            padding: 20px;
+            text-align: left;
+           /* background: #e0e0e0;*/
+           /* border-radius: 20px;*/
+            border: 1px solid #000000;
+            box-shadow: 1px 1px 5px #bcbcbc, -1px -1px 15px #ffffff;
+
+        }
+
+        /*.neumorphic-table th {
+            background-color: #f2f2f2;
+        }
+
+        .neumorphic-table tr:nth-child(odd) {
+            background-color: #f9f9f9;
+        }
+
+        .neumorphic-table tr:nth-child(even) {
+            background-color: #ffffff;
+        }*/
+
+    /*.action-buttons {
+        display: flex;
+        justify-content: space-between;
+    }*/
+</style>
+<h2>States</h2>
+<a asp-action="Create" class="btn btn-primary btn-3d">Add State</a>
+<br></br>
+<table class="neumorphic-table">
+    <thead>
+        <tr>
+            <th>State Name</th>
+            <th>State Description</th>
+            <th>State Image</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var state in Model)
+        {
+            <tr>
+                <td>@state.StateName</td>
+                <td>@state.StateDescription</td>
+                <td>
+                    @if (state.StateImage != null)
+                    {
+                        <img src="data:image/png;base64,@Convert.ToBase64String(state.StateImage)" alt="State Image" style="max-width: 100px; max-height: 100px;" />
+                    }
+                    else
+                    {
+                        <p>No Image</p>
+                    }
+                </td>
+                <td class="action-buttons" >
+                    <a asp-action="Edit" asp-route-id="@state.Id" class="btn btn-primary btn-3d" style="width: 100px;">Edit</a>
+                    <hr>
+                    <a asp-action="Delete" asp-route-id="@state.Id" class="btn btn-danger btn-3d" style="width: 100px;">Delete</a>
+                </td>
+                
+
+            </tr>
+        }
+    </tbody>
+</table>

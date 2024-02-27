@@ -1,0 +1,70 @@
+﻿@*@using SaleCRMApp.Models
+@model State
+
+@{
+    ViewData["Title"] = "Delete State";
+}
+
+<h2>Delete State</h2>
+
+<p>Are you sure you want to delete the state <strong>@Model.StateName</strong>?</p>
+
+<form asp-action="Delete" asp-route-id="@Model.Id" method="post">
+    <button type="submit" class="btn btn-danger">Delete</button> |
+    <a asp-action="Index">Cancel</a>
+</form>
+*@
+
+@using SaleCRMApp.Models
+@model State
+
+@{
+    ViewData["Title"] = "Delete State";
+}
+
+<style>
+    .btn-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        border-radius: 10px;
+    }
+
+        .btn-3d:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+    .card {
+        margin-top: 50px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        
+        background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7 );
+        padding: 20px;
+        transition: all 0.3s ease;
+    }
+
+        .card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+</style>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="text-center">@ViewData["Title"]</h2>
+                    <p class="text-center">Are you sure you want to delete the state <strong>@Model.StateName</strong>?</p>
+
+                    <form asp-action="Delete" asp-route-id="@Model.Id" method="post">
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-danger btn-3d">Delete</button> |
+                            <a asp-action="Index" class="btn btn-secondary btn-3d">Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

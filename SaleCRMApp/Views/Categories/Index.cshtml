@@ -1,0 +1,116 @@
+﻿@*@model IEnumerable<SwadeshiApp.Models.Category>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.isActive)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.isActive)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CategoryID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CategoryID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CategoryID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+*@
+
+@model IEnumerable<SwadeshiApp.Models.Category>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    .table-container {
+        background: linear-gradient(to right, #FFEAC7, #ffffff, #D1FFC7);
+    }
+     .btn-3d {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        border-radius: 10px;
+    }
+
+        .btn-3d:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+</style>
+<h1>Category List</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+<div class="table-responsive table-container">
+    <table class="table table-bordered">
+        <thead >
+            <tr>
+                <th>
+                    Category Name
+                </th>
+                <th>
+                    Description
+                </th>
+                <th>
+                    Active
+                </th>
+                <th>
+                    Actions
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CategoryName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.isActive)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.CategoryID" class="btn btn-3d btn-success">Edit</a>|
+                        <a asp-action="Details" asp-route-id="@item.CategoryID" class="btn btn-3d btn-info">Details</a>|
+                        <a asp-action="Delete" asp-route-id="@item.CategoryID" class="btn btn-3d btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

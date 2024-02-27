@@ -1,0 +1,96 @@
+﻿@* @model SwadeshiApp.Models.OrderItem
+
+@{
+    ViewData["Title"] = "Confirm Order Deletion";
+}
+
+<h1>Confirm Order Deletion</h1>
+
+<div>
+    <h4>Order details:</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Order ID:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.OrderId)
+           
+        </dd>
+        <dt class="col-sm-2">
+            Product Name:
+        </dt>
+        <dd class="col-sm-10">
+            
+            @Html.DisplayFor(model => model.Product.Name)
+        </dd>
+        
+    </dl>
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="OrderId" />
+        <div class="form-group">
+            <input type="submit" value="Delete" class="btn btn-danger" />
+            <a asp-action="OrdersByUserId" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>
+ *@
+ 
+ @model SwadeshiApp.Models.OrderItem
+
+@{
+    ViewData["Title"] = "Confirm Order Deletion";
+}
+
+<style>
+   
+
+    .neumorphic-card {
+        background: #f0f0f0; /* Background color for the card */
+        border-radius: 20px;
+        box-shadow: 5px 5px 15px #c7c7c7, -5px -5px 15px #ffffff;
+        padding: 20px;
+    }
+
+    /* Custom CSS for 3D button effect */
+    .btn-3d {
+        transition: all 0.3s ease-in-out;
+        transform-style: preserve-3d;
+        perspective: 100px;
+    }
+
+        .btn-3d:hover {
+            transform: translateZ(10px);
+        }
+</style>
+
+<div class="neumorphic-container">
+    <div class="neumorphic-card">
+        <h1>Confirm Order Deletion</h1>
+        <div class="card-body">
+            <h4 class="card-title">Order details:</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-2">
+                    Order ID:
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.OrderId)
+                </dd>
+                <dt class="col-sm-2">
+                    Product Name:
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Product.Name)
+                </dd>
+            </dl>
+            <form asp-action="Delete" method="post">
+                <input type="hidden" asp-for="OrderId" />
+                <div class="form-group">
+                    <input type="submit" value="Delete" class="btn btn-danger btn-3d" /> |
+                    <a asp-action="OrdersByUserId" class="btn btn-secondary btn-3d">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
